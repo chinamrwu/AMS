@@ -1,0 +1,54 @@
+---
+title: "Differential Methylation Regions within genome of  colorectal cancer based on TCGA HumanMethylation450K dataset"
+author: "bioinformatic group of AMS "
+date: "`r format(Sys.Date(), '%Y-%m-%d')`"
+output: 
+  pdf_document:
+    theme: united
+    toc: True
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("F:/projects/TCGA")
+ 
+knitr::read_chunk("src/TCGADMRSearcher.R")
+
+
+```
+
+\pagebreak
+ 
+  ##  Summary
+
+\pagebreak
+ 
+ ## Sample distribution among different sites of resection or biopsy
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r ,echo=FALSE}
+setwd("F:/projects/TCGA")
+ projectId <- 'TCGA-READ|TCGA-COAD'
+ clinic <- read.table("data/clinical.tsv",sep="\t",header=T,stringsAsFactors = F)
+ mf <- read.table("data/gdc_all450K_manifest.2019-04-03.txt",sep="\t",header = T,stringsAsFactors = F)
+ clinic <- clinic[grepl(projectId,clinic$project_id),]
+ tb <- table(clinic$site_of_resection_or_biopsy)
+ tb <- data.frame("site"=names(tb),"sampleNumber"=as.integer(tb),stringsAsFactors = F)
+ tb <- tb[order(tb$sampleNumber,decreasing = T),]
+ rownames(tb) <- 1:dim(tb)[1]
+ knitr::kable(tb,caption = "sample distribution",row.names = T)
+ ```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

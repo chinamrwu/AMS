@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558405662919.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "58809349",
+    "id" : "FB8CF348",
+    "lastKnownWriteTime" : 1558406211,
+    "last_content_update" : 1558406809424,
+    "path" : "F:/projects/DMRReport/template/01-sampleInformation.Rmd",
+    "project_path" : "01-sampleInformation.Rmd",
+    "properties" : {
+        "cursorPosition" : "11,51",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

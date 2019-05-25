@@ -1,7 +1,10 @@
 --- 
-title: "结直肠癌差异化甲基化区域"
-author: "艾密森生命科技有限公司
-生物信息部"
+title: "结直肠癌差异甲基化区域\\ "
+author: 
+- '\ ' 
+- "艾米森生命科技有限公司"
+- '生物信息部' 
+- '\ '  
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -11,13 +14,16 @@ link-citations: yes
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
-# Prerequisites
+# 问题描述
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+SDC2 三个DMR的序列和位置已经发给您，烦请补充以下结果：
+     首先，将390多例癌症样本按照部位进行分类（如直肠、乙状结肠、升结肠等等）
+     对于每个部位的癌症，做6条ROC曲线，分别是单个DMR的ROC和两个DMR
+     组合的ROC，各三个。
+     谢谢！
 
-The **bookdown** package can be installed from CRAN or Github:
 
-```{r eval=FALSE}
+```{r eval=FALSE,echo=F}
 install.packages("bookdown")
 # or the development version
 # devtools::install_github("rstudio/bookdown")
@@ -32,4 +38,11 @@ To compile this example to PDF, you need XeLaTeX. You are recommended to install
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
+```
+```{r eval=TRUE,include=T,echo=F,results='asis'}
+for(i in 1:10){
+ cat(sprintf('##  question %d \n\s', i))
+}
+
+
 ```

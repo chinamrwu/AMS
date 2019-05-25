@@ -24,8 +24,8 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={为中华民族崛起},
-            pdfauthor={Yihui Xie},
+            pdftitle={结直肠癌差异化甲基化区域},
+            pdfauthor={艾密森生命科技有限公司 生物信息部},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -117,15 +117,15 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{为中华民族崛起}
+  \title{结直肠癌差异化甲基化区域}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
-    \author{Yihui Xie}
+    \author{艾密森生命科技有限公司 生物信息部}
     \preauthor{\centering\large\emph}
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-05-24}
+    \date{2019-05-25}
 
 \usepackage{booktabs}
 \usepackage{xeCJK}
@@ -160,6 +160,8 @@ is defined by the first-level heading \texttt{\#}.
 To compile this example to PDF, you need XeLaTeX. You are recommended to
 install TinyTeX (which includes XeLaTeX):
 \url{https://yihui.name/tinytex/}.
+
+\chapter{Todo list}\label{todo-list}
 
 \chapter{导论}\label{intro}
 
@@ -259,6 +261,39 @@ Some \emph{significant} applications are demonstrated in this chapter.
 \chapter{Final Words}\label{final-words}
 
 We have finished a nice book.
+
+\chapter{结论}
+
+This is an R Markdown document. Markdown is a simple formatting syntax
+for authoring HTML, PDF, and MS Word documents. For more details on
+using R Markdown see \url{http://rmarkdown.rstudio.com}.
+
+When you click the \textbf{Knit} button a document will be generated
+that includes both content as well as the output of any embedded R code
+chunks within the document. You can embed an R code chunk like this:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(cars)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+\end{verbatim}
+
+You can also embed plots, for example:
+
+\includegraphics{TestReport02_files/figure-latex/pressure-1.pdf}
+
+Note that the \texttt{echo\ =\ FALSE} parameter was added to the code
+chunk to prevent printing of the R code that generated the plot.
 
 \bibliography{book.bib,packages.bib}
 

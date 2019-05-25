@@ -1,6 +1,7 @@
 --- 
-title: "为中华民族崛起"
-author: "Yihui Xie"
+title: "结直肠癌差异化甲基化区域"
+author: "艾密森生命科技有限公司
+生物信息部"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

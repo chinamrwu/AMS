@@ -18,9 +18,6 @@ TFPI2Probes <- c('cg24531255;cg17338208;cg26739865;cg22441533;cg14377593')
 TFPI2Probes <- c(TFPI2Probes,'cg12973591;cg22799321')
 probes <- unique(as.character(unlist(sapply(c(SDCProbes,TFPI2Probes),function(v){strsplit(v,";")[[1]]}))))
 
-
-
-
 COAD <- fread('F:/projects/allData/TCGA/COAD_450k.txt',header=T,sep="\t",stringsAsFactors=F,check.names=F)
 READ <- fread('F:/projects/allData/TCGA/READ_450k.txt',header=T,sep="\t",stringsAsFactors=F,check.names=F)
 mat450 <- cbind(as.data.frame(COAD),as.data.frame(READ[,-1]));
@@ -97,10 +94,10 @@ siteROC <- function(site,DMRs){
 
 ############################################################################
 ROCs <- list()
-sites <- T2$site
+sites <- T1$site
 combs <- list(1,2,3,c(1,2),c(1,3),c(2,3))
 
-pdf('E:/tmp/CRC_site_ROC.pdf',width=10,height=15)
+#pdf('E:/tmp/CRC_site_ROC.pdf',width=10,height=15)
 for(site in sites ){
    par(mar=c(0.5,0.5,2,0.5))
 	layout(matrix(c(1,1,2:7),ncol=2,byrow=T),heights=c(1,4,4,4))

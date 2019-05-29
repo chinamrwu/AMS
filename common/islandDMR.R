@@ -198,7 +198,13 @@ getDMROfGene <- function(geneSymbol,Mat450){
 getDMR <- function(M450){
 	 normalNumber <- sum(M450$label=='normal')
 	 cancerNumber <- sum(M450$label=='cancer')
-	 if(normalNumber < 5){ print(sprintf("%d normal samples are too fewer ,the statistical power will weak",normalNumber)) }
+	 tb <- table(M450$label)
+	 mtb <- tb[tb==min(tb)]
+
+	 if(normalNumber < 5 | cancerNumber < 9){ 
+	     print(sprintf("%d %s samples are too fewer ,the statistical power will weak",mtb,names(mtb)))
+		  return(c())
+	  }
 	 print(sprintf(" %d normal samples and %d cancer samples will be analysed",normalNumber,cancerNumber))
 	 isLands <- unique(probInf$CGI_Coordinate)
     tmp <- sapply(isLands,getBlocksOfisLand,M450=M450)

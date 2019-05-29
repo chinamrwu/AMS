@@ -75,11 +75,17 @@ rm(list=c('tmp1','tmp2','tmp3','T1','T2','siteSample','site'))
 ##################################################################################################
 patientInf <- data.frame('sampleId'=rownames(mat450),'label'=lbls,stringsAsFactors=F,
 'patientId'=as.character(sapply(rownames(mat450),function(v){a <- strsplit(v,"-")[[1]][1:3];paste0(a,collapse="-")})))
-patientInf <- sqldf("SELECT A.*,B.site_of_resection_or_biopsy site FROM patientInf A,clinic B where A.submitter_id=B.patientId")
+patientInf <- sqldf("SELECT A.*,B.site_of_resection_or_biopsy site FROM patientInf A,clinic B where B.submitter_id=A.patientId")
 
-
-DMR.overall <- getDMR(mat450)
+Report.DMR <- list()
+Report.DMR[[length(Report.DMR)+1]] <- getDMR(mat450)
+nms <- c()
 for(site in sites){
-    tmp <- mat450[patientInf$sampleId[patient
-
+    sp1 <- patientInf$sampleId[patientInf$site==site]
+	 nm  <- rownames(mat450)[mat450$label=='normal']
+	 tmp <- mat450[unique(c(sp1,nm)),]
+	 dmr <- getDMR(tmp);
+	 
+    Report.DMR[[length(Report.DMR)+1]] <- getDMR(tmp)
 }
+names(Report.DMR) <- c("overall",sites)

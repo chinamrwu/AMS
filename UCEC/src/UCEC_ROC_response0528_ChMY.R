@@ -30,13 +30,15 @@ mat450 <- mat450[,c('label',probeIds)]
 probeInf <- fread('F:/projects/allData/TCGA/probeInf.txt',sep="\t",header=T,stringsAsFactors=F,check.names=F)[,-c(2,7:9)]
 probeInf <- as.data.frame(probeInf)
 
-ZNF454 <- sqldf("SELECT * from probeInf where Feature_Type='Island' and Gene_Symbol like '%;ZNF454;%' order by Start ")
-CDO1   <- sqldf("SELECT * from probeInf where Feature_Type='Island' and Gene_Symbol like '%;CDO1;%' order by Start ")
+ZNF454 <- probeInf[grepl('ZNF454;|;ZNF454',probeInf$Gene_Symbol) & probeInf$Feature_Type=='Island',]
+ZNF454 <- ZNF454[order(ZNF454$Start),]
+CDO1   <- probeInf[grepl('CDO1;|;CDO1',probeInf$Gene_Symbol) & probeInf$Feature_Type=='Island',]
+CDO1   <- CDO1[order(CDO1$Start),]
 
-dmr1 <-              c("cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719")
-dmr2 <- c("cg17741986","cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719","cg03355526","cg10902717")
-dmr3 <-              c("cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719","cg03355526","cg10902717")
-dmr4 <- c("cg17741986","cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719")
+dmr1 <-              c("cg24843380","cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719")
+dmr2 <- c("cg17741986","cg24843380","cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719","cg03355526","cg10902717")
+dmr3 <-              c("cg24843380","cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719","cg03355526","cg10902717")
+dmr4 <- c("cg17741986","cg24843380","cg02165355","cg03234732","cg10575261","cg23037403","cg16536329","cg20778451","cg17840719")
 dmr5 <- c("cg07405021","cg16265906","cg12880658","cg16707405","cg02792792","cg14470895","cg23180938","cg08516516","cg11036833")
 
 usedProbes <- unique(c(dmr1,dmr2,dmr3,dmr4,dmr5)) # 19 probes

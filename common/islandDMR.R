@@ -196,13 +196,6 @@ getDMROfGene <- function(geneSymbol,Mat450){
 }
 
 getDMR <- function(M450){
-    rownames(M450) <- M450$probeId
-	 M450 <- M450[probInf$probeId,]
-	 M450 <- M450[,-1]
-	 M450 <- data.frame(t(M450),check.names=F,StringsAsFactors=F)
-	 M450 <- M450[grepl('-01A-|-11A-',rownames(M450)),]
-	 M450$label <- as.character(sapply(rownames(M450),function(v){a <- strsplit(v,"-")[[1]][4];ifelse(a=='01A','cancer','normal')}))
-
 	 normalNumber <- sum(M450$label=='normal')
 	 cancerNumber <- sum(M450$label=='cancer')
 	 if(normalNumber < 5){ print(sprintf("%d normal samples are too fewer ,the statistical power will weak",normalNumber)) }
@@ -221,5 +214,4 @@ getDMR <- function(M450){
 	 k0
 }
 findComplements <- function(matDMR){
-
 }

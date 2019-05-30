@@ -109,8 +109,18 @@ getDMROfBlock <- function(block,M450){
 				 objROC <- roc(controls=obj$value[obj$label==controlName],cases=obj$value[obj$label!=controlName])
 				 strFeatures <- paste0(block[indx:(indx+W-1)],collapse=";")
 				 
-				 sensitivity   <- mean(objROC$sensitivities) ### Need modification here
-				 specificity <- mean(objROC$specificities)
+				 #sensitivity   <- mean(objROC$sensitivities) ### Need modification here
+				 #specificity <- mean(objROC$specificities)
+            
+				 #x <- objROC$sensitivities+objROC$specificities
+				 #mxIndex <- which(x==max(x))
+				 
+				 x <- abs(objROC$thresholds - 0.5)
+             mxIndex <- which(x==min(x))
+				 
+				 sensitivity <- objROC$sensitivities[mxIndex]
+				 specificity <- objROC$specificities[mxIndex]
+             #####################
 				 Start <- probInf$Start[probInf$probeId==block[indx]]
 				 End   <- probInf$End[probInf$probeId==block[indx+W-1]]
 				 betaN <- mean(obj$value[normalIndex],na.rm=T)
@@ -125,7 +135,8 @@ getDMROfBlock <- function(block,M450){
 	 }
 	
 	result <- result[result$Width >=200,]
-	result <- result[result$dltBeta >0.1,]
+	result <- result[result$dltBeta > 0.1,]
+	result <- result[result$betaN  < 0.2,]
 	result <- result[order(result$AUC,decreasing=T),]
 	return(result)
 
@@ -201,8 +212,13 @@ getDMR <- function(M450){
 	 tb <- table(M450$label)
 	 mtb <- tb[tb==min(tb)]
 
-	 if(normalNumber < 5 | cancerNumber < 9){ 
-	     print(sprintf("%d %s samples are too fewer ,the statistical power will weak",mtb,names(mtb)))
+    if(length(tb) ==1){
+       print(sprintf("Need both cancer and normal samples ,but only %s samples found,quit searching",names(mtb)))
+		 return(c())
+	 }
+
+	 if(mtb < 7 & length(tb) >= 2){ 
+	     print(sprintf("%d %s samples are too fewer ,the statistical confidence will weak",mtb,names(mtb)))
 		  return(c())
 	  }
 	 print(sprintf(" %d normal samples and %d cancer samples will be analysed",normalNumber,cancerNumber))

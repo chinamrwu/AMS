@@ -80,12 +80,39 @@ patientInf <- sqldf("SELECT A.*,B.site_of_resection_or_biopsy site FROM patientI
 Report.DMR <- list()
 Report.DMR[[length(Report.DMR)+1]] <- getDMR(mat450)
 nms <- c()
+
+indx <- 1
 for(site in sites){
-    sp1 <- patientInf$sampleId[patientInf$site==site]
+    sp1 <- patientInf$sampleId[patientInf$site==site & patientInf$label=='cancer']
 	 nm  <- rownames(mat450)[mat450$label=='normal']
 	 tmp <- mat450[unique(c(sp1,nm)),]
+	 print(sprintf('Searching DMR for  %s......',site))
 	 dmr <- getDMR(tmp);
-	 
-    Report.DMR[[length(Report.DMR)+1]] <- getDMR(tmp)
+	 if(! is.null(dmr)){
+	      clnames <- colnames(dmr)
+	      dmr$ID <- paste0("DMR",indx:(indx+dim(dmr)[1]-1))
+			indx <-   indx + dim(dmr)[1]
+			dmr  <- dmr[,c('ID',clnames)]
+         Report.DMR[[length(Report.DMR)+1]] <- dmr
+			nms <- c(nms,site)
+	 }
+	 print("---------------------------------------------------------------")
 }
-names(Report.DMR) <- c("overall",sites)
+names(Report.DMR) <- c("overall",nms)
+#########################################################
+
+print('Generating  ROC plot for each DMR......')
+rocPlots <- list()
+for(obj in Report.DMR){
+    obj <- obj[order(obj$dltBeta,decreasing=T),]
+	   for(i in 1:100){
+          probes <- strsplit(obj$probeIds[i],";")[[1]]
+          ID     <- obj$ID[i]
+			 geneSymbol <- obj$geneSymbol
+          
+			 betaV <- as.numeric(apply(mat450[,probes],1,mean,na.rm=T))
+			 #roc <- roc('controls'=betaV[mat450$label=='normal'],'cases'=betaV[mat450$label=='cancer']
+
+		}
+}
+

@@ -8,7 +8,7 @@ library(sqldf)
 setwd("F:/projects/CESC")
 options('width'=500)
 options('digits'=5)
-source('F:/projects/TCGA/src/islandDMR.R')
+source('F:/projects/common/islandDMR.R')
 rm(list=ls())
 library(data.table)
 library(readr)
@@ -17,11 +17,11 @@ setwd('F:/projects/CESC')
 options('width'=500)
 options('digits'=5)
 
-mat1 <- fread('GEO/01/matrix01.txt',sep="\t",header = T,stringsAsFactors = F)
+mat1 <- fread('F:/projects/allData/GEO/CESC/01/matrix01.txt',sep="\t",header = T,stringsAsFactors = F)
 mat1 <- as.data.frame(mat1)
 rownames(mat1) <- mat1[,1]
 
-mat2 <- fread("GEO/02/matrix02.txt",sep="\t",header = T,stringsAsFactors = F)
+mat2 <- fread('F:/projects/allData/GEO/CESC/02/matrix02.txt',sep="\t",header = T,stringsAsFactors = F)
 mat2 <- as.data.frame(mat2)
 rownames(mat2) <- mat2[,1]
 
@@ -29,7 +29,7 @@ rownames(mat2) <- mat2[,1]
 #mat3 <- as.data.frame(mat3)
 #rownames(mat3) <- mat3$probeId
 
-probInf              <- fread(file='F:/projects/TCGA/data/TCGA_450k_sample.txt',sep="\t",header=T,check.names=F,stringsAsFactors=F)[,-2];
+probInf              <- fread(file='F:/projects/allData/TCGA/TCGA_450k_sample.txt',sep="\t",header=T,check.names=F,stringsAsFactors=F)[,-2];
 probInf              <- as.data.frame(probInf)
 colnames(probInf)[1] <- "probeId"
 rownames(probInf)    <- probInf$probeId
@@ -58,10 +58,10 @@ R0  <- apply(mat,2,function(v){sum(is.na(v))})
 mat <- mat[,R0==0]
 clnames <- colnames(mat)
 
-sampleInf1 <- read.table('GEO/01/sampleInf.txt',sep='\t',header=T,stringsAsFactors=F)
+sampleInf1 <- read.table('F:/projects/allData/GEO/CESC/01/sampleInf.txt',sep='\t',header=T,stringsAsFactors=F)
 sampleInf1$label <- tolower(sampleInf1$label)
 
-sampleInf2 <- read.table('GEO/02/sampleInf.txt',sep='\t',header=T,stringsAsFactors=F)
+sampleInf2 <- read.table('F:/projects/allData/GEO/CESC/02/sampleInf.txt',sep='\t',header=T,stringsAsFactors=F)
 sampleInf2$label <- tolower(sampleInf2$label)
 
 sampleInf <- rbind(sampleInf1[,c(1,2)],sampleInf2[,c(1,2)])
@@ -198,3 +198,64 @@ cancerMean1 <- apply(mat[cancerSamples,  strsplit(DMR_SOX1_cancerCin3$probeIds,"
 cin3Mean1   <- apply(mat[cin3Samples,    strsplit(DMR_SOX1_cancerCin3$probeIds,";")[[1]]],1,mean,na.rm=T);
 ROC <- roc('controls'=cin3Mean1,'cases'=cancerMean1)
 p6 <- plot(ROC,main="SOX1 in CESC :cin3 vs cancer",col='blue',print.thres='best',print.auc=T)
+
+############################################
+paxDMR1 <- c('cg19054524','cg08448701','cg01783070','cg19079845','cg07684169','cg16767801','cg20552282','cg19122389')#normal/cin3
+paxDMR2 <- c('cg20552282','cg19122389')# normal vs cancer
+paxDMR3 <- c('cg20552282','cg19122389')# cin3 vs cancer
+
+soxDMR1 <- c('cg11199713','cg19407095','cg06675478','cg02547394','cg16705627','cg15466862')#normal vs cin3
+soxDMR2 <- c('cg06675478','cg02547394','cg16705627','cg15466862')# normal vs cancer
+soxDMR3 <- c('cg06675478','cg02547394','cg16705627','cg15466862')# cin3 vs cancer
+
+paxDMRs <- list('PAX1_DMR1'=paxDMR1,'PAX1_DMR2'=paxDMR2,'PAX1_DMR3'=paxDMR3)
+soxDMRs <- list('SOX1_DMR1'=soxDMR1,'SOX1_DMR2'=soxDMR2,'SOX1_DMR3'=soxDMR3)
+pdf('F:/projects/CESC/output/PAX1_SOX1_ROC_20190531.pdf',width=6,height=18)
+    layout(matrix(1:3,ncol=1,byrow=T))
+	 pv1 <- as.numeric(apply(mat[,paxDMR1],1,mean,na.rm=T))
+	 pv1roc <- roc('controls'=pv1[mat$label=='normal'],'cases'=pv1[mat$label=='cin3'])
+	 sv1 <- as.numeric(apply(mat[,soxDMR1],1,mean,na.rm=T))
+	 sv1roc <- roc('controls'=sv1[mat$label=='normal'],'cases'=sv1[mat$label=='cin3'])
+    v1 <-  as.numeric(apply(mat[,c(paxDMR1,soxDMR1)],1,mean,na.rm=T))
+	 
+	 pv2    <- as.numeric(apply(mat[,paxDMR2],1,mean,na.rm=T))
+	 pv2roc <- roc('controls'=pv2[mat$label=='normal'],'cases'=pv2[mat$label=='cancer'])
+	 sv2 <- as.numeric(apply(mat[,soxDMR2],1,mean,na.rm=T))
+	 sv2roc <- roc('controls'=sv2[mat$label=='normal'],'cases'=sv2[mat$label=='cancer'])
+    v2 <- as.numeric(apply(mat[,c(paxDMR2,soxDMR2)],1,mean,na.rm=T))
+    
+	 pv3 <- as.numeric(apply(mat[,paxDMR3],1,mean,na.rm=T))
+	 pv3roc <-  roc('controls'=pv3[mat$label=='cin3'],  'cases'=pv3[mat$label=='cancer'])
+	 sv3 <- as.numeric(apply(mat[,soxDMR3],1,mean,na.rm=T))
+	 sv3roc <-  roc('controls'=sv3[mat$label=='cin3'],  'cases'=sv3[mat$label=='cancer'])
+	 v3 <- as.numeric(apply(mat[,c(paxDMR3,soxDMR3)],1,mean,na.rm=T))
+
+	 roc1 <- roc('controls'=v1[mat$label=='normal'],'cases'=v1[mat$label=='cin3'])
+	 roc2 <- roc('controls'=v2[mat$label=='normal'],'cases'=v2[mat$label=='cancer'])
+	 roc3 <- roc('controls'=v3[mat$label=='cin3'],  'cases'=v3[mat$label=='cancer'])
+    
+	 plot(roc1,main="PAX1+SOX1 for normal vs cin3 ",col='blue',print.thres='best',print.auc=T,print.auc.cex=2.0,print.thres.cex=1.5)
+	 plot(roc2,main="PAX1+SOX1 for normal vs cancer ",col='blue',print.thres='best',print.auc=T,print.auc.cex=2.0,print.thres.cex=1.5)
+	 plot(roc3,main="PAX1+SOX1 for cin3 vs cancer ",col='blue',print.thres='best',print.auc=T,print.auc.cex=2.0,print.thres.cex=1.5)
+dev.off()
+
+se1 <- t.test(x=pv1roc$sensitivities,y=roc1$sensitivities)
+se2 <- t.test(x=sv1roc$sensitivities,y=roc1$sensitivities)
+
+se3 <- t.test(x=pv2roc$sensitivities,y=roc2$sensitivities)
+se4 <- t.test(x=sv2roc$sensitivities,y=roc2$sensitivities)
+
+se5 <- t.test(x=pv3roc$sensitivities,y=roc3$sensitivities)
+se6 <- t.test(x=sv3roc$sensitivities,y=roc3$sensitivities)
+
+sp1 <- t.test(x=pv1roc$specificities,y=roc1$specificities)
+sp2 <- t.test(x=sv1roc$specificities,y=roc1$specificities)
+
+sp3 <- t.test(x=pv2roc$specificities,y=roc2$specificities)
+sp4 <- t.test(x=sv2roc$specificities,y=roc2$specificities)
+
+sp5 <- t.test(x=pv3roc$specificities,y=roc3$specificities)
+sp6 <- t.test(x=sv3roc$specificities,y=roc3$specificities)
+
+
+

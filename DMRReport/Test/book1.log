@@ -1,0 +1,6984 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.20)  31 MAY 2019 11:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**book1.tex
+(./book1.tex
+LaTeX2e <2018-12-01>
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.
+cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.
+clo
+File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern
+.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/a
+mssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/a
+msfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/am
+smath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/am
+stext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/am
+sgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/am
+sbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/am
+sopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ifxetex/
+ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fixlt
+x2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/mathspec
+/mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/e
+toolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count101
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/f
+ontspec.sty
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages
+/xparse/xparse.sty
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/e
+xpl3.sty
+Package: expl3 2019-05-09 L3 programming layer (loader) 
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/e
+xpl3-code.tex
+Package: expl3 2019-05-09 L3 programming layer (code)
+\c_max_int=\count102
+\l_tmpa_int=\count103
+\l_tmpb_int=\count104
+\g_tmpa_int=\count105
+\g_tmpb_int=\count106
+\g__kernel_prg_map_int=\count107
+\c__ior_term_ior=\count108
+\c_log_iow=\count109
+\l_iow_line_count_int=\count110
+\l__iow_line_target_int=\count111
+\l__iow_one_indent_int=\count112
+\l__iow_indent_int=\count113
+\c_zero_dim=\dimen112
+\c_max_dim=\dimen113
+\l_tmpa_dim=\dimen114
+\l_tmpb_dim=\dimen115
+\g_tmpa_dim=\dimen116
+\g_tmpb_dim=\dimen117
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count114
+\l__intarray_loop_int=\count115
+\c__intarray_sp_dim=\dimen118
+\g__intarray_font_int=\count116
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
+\g__fp_array_int=\count126
+\l__fp_array_loop_int=\count127
+\l__sort_length_int=\count128
+\l__sort_min_int=\count129
+\l__sort_top_int=\count130
+\l__sort_max_int=\count131
+\l__sort_true_max_int=\count132
+\l__sort_block_int=\count133
+\l__sort_begin_int=\count134
+\l__sort_end_int=\count135
+\l__sort_A_int=\count136
+\l__sort_B_int=\count137
+\l__sort_C_int=\count138
+\l__tl_analysis_normal_int=\count139
+\l__tl_analysis_index_int=\count140
+\l__tl_analysis_nesting_int=\count141
+\l__tl_analysis_type_int=\count142
+\l__regex_internal_a_int=\count143
+\l__regex_internal_b_int=\count144
+\l__regex_internal_c_int=\count145
+\l__regex_balance_int=\count146
+\l__regex_group_level_int=\count147
+\l__regex_mode_int=\count148
+\c__regex_cs_in_class_mode_int=\count149
+\c__regex_cs_mode_int=\count150
+\l__regex_catcodes_int=\count151
+\l__regex_default_catcodes_int=\count152
+\c__regex_catcode_L_int=\count153
+\c__regex_catcode_O_int=\count154
+\c__regex_catcode_A_int=\count155
+\c__regex_all_catcodes_int=\count156
+\l__regex_show_lines_int=\count157
+\l__regex_min_state_int=\count158
+\l__regex_max_state_int=\count159
+\l__regex_left_state_int=\count160
+\l__regex_right_state_int=\count161
+\l__regex_capturing_group_int=\count162
+\l__regex_min_pos_int=\count163
+\l__regex_max_pos_int=\count164
+\l__regex_curr_pos_int=\count165
+\l__regex_start_pos_int=\count166
+\l__regex_success_pos_int=\count167
+\l__regex_curr_char_int=\count168
+\l__regex_curr_catcode_int=\count169
+\l__regex_last_char_int=\count170
+\l__regex_case_changed_char_int=\count171
+\l__regex_curr_state_int=\count172
+\l__regex_step_int=\count173
+\l__regex_min_active_int=\count174
+\l__regex_max_active_int=\count175
+\l__regex_replacement_csnames_int=\count176
+\l__regex_match_count_int=\count177
+\l__regex_min_submatch_int=\count178
+\l__regex_submatch_int=\count179
+\l__regex_zeroth_submatch_int=\count180
+\g__regex_trace_regex_int=\count181
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+\l__box_top_dim=\dimen119
+\l__box_bottom_dim=\dimen120
+\l__box_left_dim=\dimen121
+\l__box_right_dim=\dimen122
+\l__box_top_new_dim=\dimen123
+\l__box_bottom_new_dim=\dimen124
+\l__box_left_new_dim=\dimen125
+\l__box_right_new_dim=\dimen126
+\l__box_internal_box=\box34
+\l__coffin_internal_box=\box35
+\l__coffin_internal_dim=\dimen127
+\l__coffin_offset_x_dim=\dimen128
+\l__coffin_offset_y_dim=\dimen129
+\l__coffin_x_dim=\dimen130
+\l__coffin_y_dim=\dimen131
+\l__coffin_x_prime_dim=\dimen132
+\l__coffin_y_prime_dim=\dimen133
+\c_empty_coffin=\box36
+\l__coffin_aligned_coffin=\box37
+\l__coffin_aligned_internal_coffin=\box38
+\l_tmpa_coffin=\box39
+\l_tmpb_coffin=\box40
+\g_tmpa_coffin=\box41
+\g_tmpb_coffin=\box42
+\l__coffin_bounding_shift_dim=\dimen134
+\l__coffin_left_corner_dim=\dimen135
+\l__coffin_right_corner_dim=\dimen136
+\l__coffin_bottom_corner_dim=\dimen137
+\l__coffin_top_corner_dim=\dimen138
+\l__coffin_scaled_total_height_dim=\dimen139
+\l__coffin_scaled_width_dim=\dimen140
+\c__coffin_empty_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
+\l__coffin_display_offset_dim=\dimen141
+\l__coffin_display_x_dim=\dimen142
+\l__coffin_display_y_dim=\dimen143
+\g__file_internal_ior=\read1
+\l__seq_internal_a_int=\count182
+\l__seq_internal_b_int=\count183
+\c__deprecation_minus_one=\count184
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/l
+3xdvipdfmx.def
+File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
+\l__driver_internal_box=\box47
+\g__driver_graphics_int=\count185
+\g__driver_pdf_object_int=\count186
+\g__driver_pdf_annotation_int=\count187
+))
+Package: xparse 2019-05-03 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count188
+\g__xparse_grabber_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_v_nesting_int=\count191
+)
+Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/f
+ontspec-xetex.sty
+Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count192
+\l__fontspec_language_int=\count193
+\l__fontspec_strnum_int=\count194
+\l__fontspec_tmp_int=\count195
+\l__fontspec_tmpa_int=\count196
+\l__fontspec_tmpb_int=\count197
+\l__fontspec_tmpc_int=\count198
+\l__fontspec_em_int=\count199
+\l__fontspec_emdef_int=\count266
+\l__fontspec_strong_int=\count267
+\l__fontspec_strongdef_int=\count268
+\l__fontspec_tmpa_dim=\dimen144
+\l__fontspec_tmpb_dim=\dimen145
+\l__fontspec_tmpc_dim=\dimen146
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fonte
+nc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/tuenc
+.def
+File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/f
+ontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 4051.
+LaTeX Info: Redefining \slshape on input line 4056.
+LaTeX Info: Redefining \scshape on input line 4061.
+LaTeX Info: Redefining \upshape on input line 4066.
+LaTeX Info: Redefining \em on input line 4096.
+LaTeX Info: Redefining \emph on input line 4121.
+))
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xk
+eyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/
+xkeyval.tex
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/
+xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/
+keyval.tex))
+\XKV@depth=\count269
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@eu@=\count270
+\c@eu@i=\count271
+\c@mkern=\count272
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/up
+quote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textc
+omp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1en
+c.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/g
+eometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count273
+\Gm@cntv=\count274
+\c@Gm@tempcnt=\count275
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks22
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/h
+yperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/a
+uxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/k
+voptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/p
+d1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfi
+g/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count279
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.st
+y
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen156
+\Fld@menulength=\count280
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/h
+xetex.def
+File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/p
+uenc.def
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box48
+\c@Hy@AnnotLevel=\count284
+\HyField@AnnotCount=\count285
+\Fld@listcount=\count286
+\c@bookmark@seq@number=\count287
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/r
+erunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip52
+)
+Package hyperref Info: Option `unicode' set `true' on input line 30.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 30.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/nat
+bib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count288
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/long
+table.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count289
+\LTcapwidth=\dimen159
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count290
+\LT@rows=\count291
+\c@LT@tables=\count292
+\c@LT@chunks=\count293
+\LT@p@ftn=\toks23
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/b
+ooktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count294
+\@cmidlb=\count295
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count296
+\@lastruleclass=\count297
+\@thisrulewidth=\dimen172
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/g
+raphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/g
+raphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/t
+rig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-c
+fg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-d
+ef/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/g
+rffile.sty
+Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/ti
+tling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip59
+\thanksmargin=\skip60
+\droptitle=\skip61
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/xecjk/xe
+CJK.sty
+Package: xeCJK 2019/04/07 v3.7.2 Typesetting CJK scripts with XeLaTeX
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages
+/xtemplate/xtemplate.sty
+Package: xtemplate 2019-05-03 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen175
+\l__xtemplate_tmp_int=\count298
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip62
+)
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages
+/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2019-05-03 LaTeX2e option processing using LaTeX3 keys
+)
+\l__xeCJK_tmp_int=\count299
+\l__xeCJK_tmp_box=\box53
+\l__xeCJK_tmp_dim=\dimen176
+\l__xeCJK_tmp_skip=\skip63
+\g__xeCJK_space_factor_int=\count300
+\l__xeCJK_begin_int=\count301
+\l__xeCJK_end_int=\count302
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip64
+\g__xeCJK_node_int=\count303
+\c__xeCJK_CJK_node_dim=\dimen177
+\c__xeCJK_CJK-space_node_dim=\dimen178
+\c__xeCJK_default_node_dim=\dimen179
+\c__xeCJK_default-space_node_dim=\dimen180
+\c__xeCJK_CJK-widow_node_dim=\dimen181
+\c__xeCJK_normalspace_node_dim=\dimen182
+\l__xeCJK_ccglue_skip=\skip65
+\l__xeCJK_ecglue_skip=\skip66
+\l__xeCJK_punct_kern_skip=\skip67
+\l__xeCJK_last_penalty_int=\count304
+\l__xeCJK_last_bound_dim=\dimen183
+\l__xeCJK_last_kern_dim=\dimen184
+\l__xeCJK_widow_penalty_int=\count305
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2352.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen185
+\l__xeCJK_mixed_punct_width_dim=\dimen186
+\l__xeCJK_middle_punct_width_dim=\dimen187
+\l__xeCJK_fixed_margin_width_dim=\dimen188
+\l__xeCJK_mixed_margin_width_dim=\dimen189
+\l__xeCJK_middle_margin_width_dim=\dimen190
+\l__xeCJK_bound_punct_width_dim=\dimen191
+\l__xeCJK_bound_margin_width_dim=\dimen192
+\l__xeCJK_margin_minimum_dim=\dimen193
+\l__xeCJK_kerning_total_width_dim=\dimen194
+\l__xeCJK_same_align_margin_dim=\dimen195
+\l__xeCJK_different_align_margin_dim=\dimen196
+\l__xeCJK_kerning_margin_width_dim=\dimen197
+\l__xeCJK_kerning_margin_minimum_dim=\dimen198
+\l__xeCJK_bound_dim=\dimen199
+\l__xeCJK_reverse_bound_dim=\dimen256
+\l__xeCJK_minimum_bound_dim=\dimen257
+\l__xeCJK_kerning_margin_dim=\dimen258
+\l__xeCJK_original_margin_dim=\dimen259
+\g__xeCJK_family_int=\count306
+\l__xeCJK_fam_int=\count307
+\g__xeCJK_fam_allocation_int=\count308
+\l__xeCJK_verb_case_int=\count309
+\l__xeCJK_verb_exspace_skip=\skip68
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/xecjk/xe
+CJK.cfg
+File: xeCJK.cfg 2019/04/07 v3.7.2 Configuration file for xeCJK package
+))
+
+Package fontspec Info: simsun scale = 0.951171875.
+
+
+Package fontspec Info: simsun scale = 0.951171875.
+
+
+Package fontspec Info: simsun scale = 0.951171875.
+
+
+Package fontspec Info: simsun scale = 0.951171875.
+
+
+Package fontspec Info: simsun scale = 0.951171875.
+
+
+Package fontspec Info: Font family 'simsun.ttc(0)' created for font
+(fontspec)             'simsun.ttc' with options
+(fontspec)             [Ligatures=TeX,Scale=MatchLowercase,Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.951171875]"[simsun.ttc]/OT:script=hani;language=
+DFLT;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->s*[0.951171875]"[simsun.ttc]/OT:script=hani;language=
+DFLT;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.951171875]"[simsun.ttc]/OT:script=hani;language=
+DFLT;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->s*[0.951171875]"[simsun.ttc]/OT:script=hani;language=
+DFLT;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xco
+lor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-c
+fg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/c
+olortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/arra
+y.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen260
+\ar@mcellbox=\box54
+\extrarowheight=\dimen261
+\NC@list=\toks24
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box55
+)
+\everycr=\toks25
+\minrowclearance=\skip71
+)
+\rownum=\count310
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (./book1.aux)
+\openout1 = `book1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cm
+r.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 95.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/n
+ameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek
+/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count311
+)
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
+(./book1.out) (./book1.out)
+\@outlinefile=\write3
+\openout3 = `book1.out'.
+
+LaTeX Font Info:    Font shape `TU/simsun.ttc(0)/m/n' will be
+(Font)              scaled to size 19.7273pt on input line 96.
+LaTeX Font Info:    Font shape `TU/simsun.ttc(0)/m/it' will be
+(Font)              scaled to size 11.41406pt on input line 96.
+[1
+
+
+] (./book1.toc
+LaTeX Font Info:    Font shape `TU/simsun.ttc(0)/bx/n' will be
+(Font)              scaled to size 9.51172pt on input line 1.
+)
+\tf@toc=\write4
+\openout4 = `book1.toc'.
+
+[2
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `TU/simsun.ttc(0)/bx/n' will be
+(Font)              scaled to size 23.66515pt on input line 102.
+LaTeX Font Info:    Font shape `TU/simsun.ttc(0)/m/n' will be
+(Font)              scaled to size 9.51172pt on input line 104.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 110.
+
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.
+fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 110.
+
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.
+fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 110
+.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy
+.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 110
+.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex
+.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 110.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 110.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 110.
+LaTeX Font Info:    Try loading font information for U+msa on input line 110.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/u
+msa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 110.
+
+(c:/Users/Administrator/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/u
+msb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3
+
+]
+Chapter 2.
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 139--143
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 143--148
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 148--150
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 150--152
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 167--167
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 168--168
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 152--176
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 181--181
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 183--183
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 184--184
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 185--185
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 187--187
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 189--189
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 191--191
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 192--192
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 196--196
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 197--197
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 198--198
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 199--199
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 176--200
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 205--205
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 207--207
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 208--208
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 210--210
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 211--211
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (57.01173pt too wide) in paragraph at lines 217--217
+[]|\TU/lmr/m/n/10 HIST2H2BB;HIST2H3PS2;RP5- 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 221--221
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 222--222
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 200--224
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[4
+
+]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 227--227
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 237--237
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 238--238
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 224--248
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 256--256
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 262--262
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 270--270
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 248--272
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[5]
+Overfull \hbox (42.70174pt too wide) in paragraph at lines 273--273
+[]|\TU/lmr/m/n/10 AC003006.7;ZNF154;ZNF551|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 276--276
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (42.70174pt too wide) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10 AC003006.7;ZNF154;ZNF551|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 291--291
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 294--294
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (11.17174pt too wide) in paragraph at lines 295--295
+[]|\TU/lmr/m/n/10 AC009487.5;SLC4A10|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 272--296
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 299--299
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 303--303
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (57.01173pt too wide) in paragraph at lines 306--306
+[]|\TU/lmr/m/n/10 HIST2H2BB;HIST2H3PS2;RP5- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 296--320
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+LaTeX Font Info:    Font shape `TU/simsun.ttc(0)/m/sl' in size <10> not availab
+le
+(Font)              Font shape `TU/simsun.ttc(0)/m/it' tried instead on input l
+ine 320.
+LaTeX Font Info:    Font shape `TU/simsun.ttc(0)/m/it' will be
+(Font)              scaled to size 9.51172pt on input line 320.
+[6]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 325--325
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 329--329
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 320--344
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[7]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 344--368
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 368--392
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[8]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 392--416
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[9]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 423--423
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (11.17174pt too wide) in paragraph at lines 424--424
+[]|\TU/lmr/m/n/10 AC009487.5;SLC4A10|  
+ []
+
+
+Overfull \hbox (11.17174pt too wide) in paragraph at lines 432--432
+[]|\TU/lmr/m/n/10 AC009487.5;SLC4A10|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 416--440
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 447--447
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (11.17174pt too wide) in paragraph at lines 450--450
+[]|\TU/lmr/m/n/10 AC009487.5;SLC4A10|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 440--464
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[10]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 464--488
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[11]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 488--512
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 520--520
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 531--531
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 512--536
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[12]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 536--560
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[13]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 560--584
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 584--608
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[14]
+Overfull \hbox (693.84175pt too wide) in paragraph at lines 627--627
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDHGA7;PCDHG
+A8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 608--632
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 632--656
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[15]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 656--680
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[16]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 682--682
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 693--693
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (693.84175pt too wide) in paragraph at lines 701--701
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDHGA7;PCDHG
+A8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 680--704
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 704--728
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[17]
+Overfull \hbox (693.84175pt too wide) in paragraph at lines 743--743
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDHGA7;PCDHG
+A8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 750--750
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 728--752
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 752--776
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[18]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 776--800
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[19]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 800--824
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (11.17174pt too wide) in paragraph at lines 833--833
+[]|\TU/lmr/m/n/10 AC009487.5;SLC4A10|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 824--848
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[20]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 848--872
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 872--896
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[21]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 904--904
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 917--917
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 896--920
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 943--943
+[]|\TU/lmr/m/n/10 GABRA4;GABRB1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 920--944
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[22]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 948--948
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 955--955
+[]|\TU/lmr/m/n/10 GABRA4;GABRB1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 944--968
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 969--969
+[]|\TU/lmr/m/n/10 GABRA4;GABRB1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 968--992
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[23]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 992--1016
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1016--1040
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[24]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1040--1064
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1064--1088
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[25]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1088--1112
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (485.48177pt too wide) in paragraph at lines 1129--1129
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDHGA7;PCDHG
+B1;PCDHGB2;PCDHGB3;PCDHGB4|  
+ []
+
+
+Overfull \hbox (485.48177pt too wide) in paragraph at lines 1135--1135
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDHGA7;PCDHG
+B1;PCDHGB2;PCDHGB3;PCDHGB4|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1112--1136
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[26]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1136--1160
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1160--1184
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[27]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1184--1208
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1208--1232
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[28]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1232--1256
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[29]
+Overfull \hbox (803.02174pt too wide) in paragraph at lines 1259--1259
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA10;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDH
+GA7;PCDHGA8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6;PCDHGB7|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 1271--1271
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1256--1280
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 1281--1281
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (803.02174pt too wide) in paragraph at lines 1295--1295
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA10;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDH
+GA7;PCDHGA8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6;PCDHGB7|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1280--1304
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[30]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 1312--1312
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1304--1328
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1328--1352
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[31]
+Overfull \hbox (803.02174pt too wide) in paragraph at lines 1375--1375
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA10;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDH
+GA7;PCDHGA8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6;PCDHGB7|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1352--1376
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (9.23174pt too wide) in paragraph at lines 1381--1381
+[]|\TU/lmr/m/n/10 AC003986.5;FERD3L|  
+ []
+
+
+Overfull \hbox (803.02174pt too wide) in paragraph at lines 1392--1392
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA10;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDH
+GA7;PCDHGA8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6;PCDHGB7|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1376--1400
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[32]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1400--1424
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1424--1448
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[33]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1448--1472
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1472--1496
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[34]
+Overfull \hbox (18.05174pt too wide) in paragraph at lines 1511--1511
+[]|\TU/lmr/m/n/10 MIR663A;MIR663AHG|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1496--1520
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[35]
+Overfull \hbox (803.02174pt too wide) in paragraph at lines 1522--1522
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA10;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDH
+GA7;PCDHGA8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6;PCDHGB7|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1520--1544
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1544--1568
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[36]
+Overfull \hbox (18.05174pt too wide) in paragraph at lines 1576--1576
+[]|\TU/lmr/m/n/10 MIR663A;MIR663AHG|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 1579--1579
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 1585--1585
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1568--1592
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (803.02174pt too wide) in paragraph at lines 1597--1597
+[]|\TU/lmr/m/n/10 PCDHGA1;PCDHGA10;PCDHGA2;PCDHGA3;PCDHGA4;PCDHGA5;PCDHGA6;PCDH
+GA7;PCDHGA8;PCDHGA9;PCDHGB1;PCDHGB2;PCDHGB3;PCDHGB4;PCDHGB5;PCDHGB6;PCDHGB7|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1592--1616
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[37]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1616--1640
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1640--1664
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[38]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1664--1688
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1688--1712
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[39]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1712--1736
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 1753--1753
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1736--1760
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[40]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1760--1784
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1784--1808
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[41]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 1823--1823
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1808--1832
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1832--1856
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1856--1880
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[42]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 1884--1884
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1880--1904
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1904--1928
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[43]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1928--1952
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 1956--1956
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 1971--1971
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1952--1976
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[44]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 1976--2000
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2000--2024
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[45]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2024--2048
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2048--2072
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[46]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2072--2096
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2096--2120
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[47]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 2125--2125
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2120--2144
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2144--2168
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[48]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2168--2192
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2192--2216
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[49]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2216--2240
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2240--2264
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[50]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2264--2288
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2288--2312
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[51]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2312--2336
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2336--2360
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[52]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2360--2384
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 2405--2405
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2384--2408
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[53]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2408--2432
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 2440--2440
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2432--2456
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[54]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2456--2480
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 2485--2485
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2480--2504
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[55]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2504--2528
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[56]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2528--2552
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2552--2576
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[57]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2576--2600
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[58]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2600--2624
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2624--2648
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[59]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2648--2672
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[60]
+Overfull \hbox (56.46175pt too wide) in paragraph at lines 2673--2673
+[]|\TU/lmr/m/n/10 AC055876.1;PDCD6IPP2;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2672--2696
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[61]
+Overfull \hbox (56.46175pt too wide) in paragraph at lines 2716--2716
+[]|\TU/lmr/m/n/10 AC055876.1;PDCD6IPP2;RP11- 
+ []
+
+
+Overfull \hbox (56.46175pt too wide) in paragraph at lines 2717--2717
+[]|\TU/lmr/m/n/10 AC055876.1;PDCD6IPP2;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2696--2720
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.84174pt too wide) in paragraph at lines 2733--2733
+[]|\TU/lmr/m/n/10 AC115286.1;C1orf94|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2720--2744
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[62]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 2746--2746
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2744--2768
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2768--2792
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[63]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 2800--2800
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2792--2816
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2816--2840
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[64]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 2847--2847
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 2855--2855
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2840--2864
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[65]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 2875--2875
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (56.46175pt too wide) in paragraph at lines 2883--2883
+[]|\TU/lmr/m/n/10 AC055876.1;PDCD6IPP2;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2864--2888
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 2910--2910
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2888--2912
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[66]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 2914--2914
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (56.46175pt too wide) in paragraph at lines 2926--2926
+[]|\TU/lmr/m/n/10 AC055876.1;PDCD6IPP2;RP11- 
+ []
+
+
+Overfull \hbox (56.46175pt too wide) in paragraph at lines 2927--2927
+[]|\TU/lmr/m/n/10 AC055876.1;PDCD6IPP2;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2912--2936
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 2941--2941
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2936--2960
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[67]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2960--2984
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 2997--2997
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 2984--3008
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[68]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3031--3031
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3008--3032
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3032--3056
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[69]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3056--3080
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3080--3104
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[70]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3104--3128
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3128--3152
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[71]
+Overfull \hbox (4.78174pt too wide) in paragraph at lines 3166--3166
+[]|\TU/lmr/m/n/10 AC007228.5;ZNF835|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3152--3176
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3176--3200
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[72]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3208--3208
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 3213--3213
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3200--3224
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3226--3226
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3224--3248
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[73]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3248--3272
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3272--3296
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[74]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3296--3320
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3320--3344
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[75]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3349--3349
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3344--3368
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[76]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3368--3392
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.95174pt too wide) in paragraph at lines 3406--3406
+\TU/lmr/m/n/10 467M3.1;LINC00461|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3392--3416
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[77]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3416--3440
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3440--3464
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[78]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3464--3488
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3488--3512
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[79]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3519--3519
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3520--3520
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3512--3536
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3540--3540
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 3552--3552
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3536--3560
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[80]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3560--3584
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3584--3608
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[81]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3609--3609
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3608--3632
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.95174pt too wide) in paragraph at lines 3642--3642
+\TU/lmr/m/n/10 467M3.1;LINC00461|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3632--3656
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[82]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 3663--3663
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3656--3680
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 3700--3700
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3703--3703
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3680--3704
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[83]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 3721--3721
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3704--3728
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 3736--3736
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (49.50174pt too wide) in paragraph at lines 3751--3751
+[]|\TU/lmr/m/n/10 AC018730.4;LINC01159;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3728--3752
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[84]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3752--3776
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3776--3800
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[85]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 3803--3803
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 3821--3821
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3800--3824
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3828--3828
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 3834--3834
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3824--3848
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[86]
+Overfull \hbox (8.26175pt too wide) in paragraph at lines 3849--3849
+[]|\TU/lmr/m/n/10 POU4F2;AC093887.1|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 3867--3867
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3848--3872
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 3887--3887
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3872--3896
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[87]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3896--3920
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3920--3944
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[88]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3944--3968
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3968--3992
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 3992--4016
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[89]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4016--4040
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4040--4064
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[90]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4064--4088
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[91]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4088--4112
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4112--4136
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[92]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4136--4160
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4160--4184
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 4195--4195
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4184--4208
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[93]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4208--4232
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 4255--4255
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4232--4256
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[94]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4256--4280
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4280--4304
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[95]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4304--4328
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 4351--4351
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4328--4352
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[96]
+Overfull \hbox (10.21175pt too wide) in paragraph at lines 4371--4371
+[]|\TU/lmr/m/n/10 LYPLAL1;LYPLAL1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4352--4376
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4376--4400
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[97]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4400--4424
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4424--4448
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[98]
+Overfull \hbox (10.21175pt too wide) in paragraph at lines 4463--4463
+[]|\TU/lmr/m/n/10 LYPLAL1;LYPLAL1- 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 4467--4467
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4448--4472
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4472--4496
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[99]
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 4511--4511
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4496--4520
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4520--4544
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[100]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4553--4553
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4544--4568
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4569--4569
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4568--4592
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[101]
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 4606--4606
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4592--4616
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (49.50174pt too wide) in paragraph at lines 4621--4621
+[]|\TU/lmr/m/n/10 AC018730.4;LINC01159;RP11- 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4623--4623
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (10.21175pt too wide) in paragraph at lines 4635--4635
+[]|\TU/lmr/m/n/10 LYPLAL1;LYPLAL1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4616--4640
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[102]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4645--4645
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4647--4647
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4660--4660
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4640--4664
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4664--4688
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[103]
+Overfull \hbox (20.48174pt too wide) in paragraph at lines 4699--4699
+\TU/lmr/m/n/10 AS4;HOXB7;MIR196A1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4688--4712
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4713--4713
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 4721--4721
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (10.21175pt too wide) in paragraph at lines 4728--4728
+[]|\TU/lmr/m/n/10 LYPLAL1;LYPLAL1- 
+ []
+
+
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 4734--4734
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 4735--4735
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4712--4736
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[104]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4746--4746
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4736--4760
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4776--4776
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4760--4784
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[105]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 4806--4806
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4784--4808
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4811--4811
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (21.58174pt too wide) in paragraph at lines 4818--4818
+[]|\TU/lmr/m/n/10 HIST1H2BB;HIST1H3C|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4808--4832
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[106]
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 4842--4842
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4832--4856
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 4859--4859
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (21.58174pt too wide) in paragraph at lines 4860--4860
+[]|\TU/lmr/m/n/10 HIST1H2BB;HIST1H3C|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4856--4880
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[107]
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 4891--4891
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 4895--4895
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4880--4904
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 4907--4907
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4904--4928
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[108]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4928--4952
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 4957--4957
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 4975--4975
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4952--4976
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[109]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 4976--5000
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 5002--5002
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 5016--5016
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 5017--5017
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5000--5024
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[110]
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5025--5025
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 5026--5026
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5024--5048
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 5065--5065
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5048--5072
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[111]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5072--5096
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 5097--5097
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5096--5120
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[112]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5120--5144
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.86174pt too wide) in paragraph at lines 5146--5146
+[]|\TU/lmr/m/n/10 AC016757.3;AC096574.4|  
+ []
+
+
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 5148--5148
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5144--5168
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[113]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5168--5192
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5192--5216
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[114]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5216--5240
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5240--5264
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[115]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 5272--5272
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5277--5277
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 5280--5280
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5264--5288
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5291--5291
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 5297--5297
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 5305--5305
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 5310--5310
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5288--5312
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[116]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5312--5336
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5350--5350
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5336--5360
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[117]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5360--5384
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5384--5408
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[118]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 5411--5411
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5429--5429
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5408--5432
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 5437--5437
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 5440--5440
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5432--5456
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[119]
+Overfull \hbox (21.86174pt too wide) in paragraph at lines 5466--5466
+[]|\TU/lmr/m/n/10 AC016757.3;AC096574.4|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5456--5480
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 5496--5496
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5480--5504
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[120]
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5521--5521
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5504--5528
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5528--5552
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[121]
+Overfull \hbox (21.86174pt too wide) in paragraph at lines 5571--5571
+[]|\TU/lmr/m/n/10 AC016757.3;AC096574.4|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5552--5576
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5576--5600
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[122]
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 5603--5603
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5600--5624
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5624--5648
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[123]
+Overfull \hbox (20.48174pt too wide) in paragraph at lines 5670--5670
+\TU/lmr/m/n/10 AS4;HOXB7;MIR196A1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5648--5672
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5672--5696
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.86174pt too wide) in paragraph at lines 5701--5701
+[]|\TU/lmr/m/n/10 AC016757.3;AC096574.4|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5696--5720
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[124]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5720--5744
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 5763--5763
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5744--5768
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[125]
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 5776--5776
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5768--5792
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5792--5816
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[126]
+Overfull \hbox (4.37175pt too wide) in paragraph at lines 5826--5826
+[]|\TU/lmr/m/n/10 LINC00621;NUS1P2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5816--5840
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5842--5842
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5856--5856
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5840--5864
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[127]
+Overfull \hbox (21.86174pt too wide) in paragraph at lines 5865--5865
+[]|\TU/lmr/m/n/10 AC016757.3;AC096574.4|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5864--5888
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5888--5912
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[128]
+Overfull \hbox (4.37175pt too wide) in paragraph at lines 5929--5929
+[]|\TU/lmr/m/n/10 LINC00621;NUS1P2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5912--5936
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5936--5960
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[129]
+Overfull \hbox (21.86174pt too wide) in paragraph at lines 5970--5970
+[]|\TU/lmr/m/n/10 AC016757.3;AC096574.4|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5960--5984
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 5999--5999
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 5984--6008
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6008--6032
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[130]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 6037--6037
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6051--6051
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6053--6053
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6032--6056
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6064--6064
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6056--6080
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[131]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6083--6083
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6080--6104
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 6119--6119
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6104--6128
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[132]
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 6135--6135
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 6142--6142
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6145--6145
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6128--6152
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 6171--6171
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6152--6176
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[133]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6184--6184
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6189--6189
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6176--6200
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 6222--6222
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6200--6224
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[134]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 6247--6247
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6224--6248
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6255--6255
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6256--6256
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6265--6265
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6267--6267
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6270--6270
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6248--6272
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[135]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6279--6279
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6280--6280
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6283--6283
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6285--6285
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6272--6296
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.86174pt too wide) in paragraph at lines 6298--6298
+[]|\TU/lmr/m/n/10 AC016757.3;AC096574.4|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6300--6300
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6310--6310
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6316--6316
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6318--6318
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6296--6320
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[136]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6322--6322
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6324--6324
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6320--6344
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6354--6354
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6363--6363
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6344--6368
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[137]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6378--6378
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6388--6388
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6368--6392
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6394--6394
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6395--6395
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (19.66174pt too wide) in paragraph at lines 6408--6408
+\TU/lmr/m/n/10 2517M22.14;PPP1R16A|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6392--6416
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6419--6419
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6424--6424
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6425--6425
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6427--6427
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 6436--6436
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6416--6440
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[138]
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 6445--6445
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 6453--6453
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6454--6454
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6440--6464
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6465--6465
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6467--6467
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6468--6468
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6481--6481
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6464--6488
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[139]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6495--6495
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6503--6503
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6505--6505
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6510--6510
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6488--6512
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 6513--6513
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6523--6523
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6512--6536
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[140]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6538--6538
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6536--6560
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6580--6580
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 6583--6583
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6560--6584
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[141]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6585--6585
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6591--6591
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6584--6608
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6617--6617
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 6619--6619
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6608--6632
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[142]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6632--6656
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6660--6660
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6656--6680
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[143]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6693--6693
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6680--6704
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6717--6717
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6721--6721
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6704--6728
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[144]
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6735--6735
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6745--6745
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6747--6747
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6728--6752
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6754--6754
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6771--6771
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6752--6776
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[145]
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6781--6781
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6787--6787
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6791--6791
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6776--6800
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 6802--6802
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6807--6807
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 6810--6810
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6815--6815
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6821--6821
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6800--6824
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[146]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6831--6831
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 6834--6834
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6838--6838
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6843--6843
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6845--6845
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6824--6848
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (45.97174pt too wide) in paragraph at lines 6855--6855
+[]|\TU/lmr/m/n/10 MIR137HG;MIR2682;MIR137|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6858--6858
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6864--6864
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6865--6865
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6848--6872
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[147]
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6886--6886
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6887--6887
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6894--6894
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6872--6896
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6899--6899
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6911--6911
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 6912--6912
+[]|\TU/lmr/m/n/10 GABRA5;GABRB3|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6896--6920
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[148]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6927--6927
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6939--6939
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 6943--6943
+[]|\TU/lmr/m/n/10 GABRA5;GABRB3|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6920--6944
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6947--6947
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 6967--6967
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6944--6968
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 6969--6969
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (1.73174pt too wide) in paragraph at lines 6987--6987
+[]|\TU/lmr/m/n/10 KIF28P;LINC01341|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6968--6992
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[149]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 6997--6997
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 6992--7016
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 7023--7023
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 7027--7027
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7016--7040
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[150]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7059--7059
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (3.67174pt too wide) in paragraph at lines 7062--7062
+[]|\TU/lmr/m/n/10 HSD17B12;MIR129- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7040--7064
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7079--7079
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7064--7088
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[151]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7096--7096
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 7102--7102
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 7104--7104
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7088--7112
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7112--7136
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[152]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7140--7140
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (52.56174pt too wide) in paragraph at lines 7144--7144
+[]|\TU/lmr/m/n/10 AC108025.2;LINC01248;SOX11|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 7145--7145
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7136--7160
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 7163--7163
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 7167--7167
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7160--7184
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[153]
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 7189--7189
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7184--7208
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7231--7231
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7208--7232
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[154]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7239--7239
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (1.73174pt too wide) in paragraph at lines 7251--7251
+[]|\TU/lmr/m/n/10 KIF28P;LINC01341|  
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 7253--7253
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7232--7256
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7273--7273
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7256--7280
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[155]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7282--7282
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7297--7297
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7280--7304
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 7323--7323
+[]|\TU/lmr/m/n/10 GABRA5;GABRB3|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7304--7328
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[156]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7335--7335
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (8.84174pt too wide) in paragraph at lines 7339--7339
+[]|\TU/lmr/m/n/10 C2orf81;AC005041.11|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7348--7348
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7328--7352
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 7359--7359
+[]|\TU/lmr/m/n/10 GABRA5;GABRB3|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7361--7361
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7367--7367
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7352--7376
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[157]
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 7378--7378
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (3.67174pt too wide) in paragraph at lines 7392--7392
+[]|\TU/lmr/m/n/10 HSD17B12;MIR129- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7395--7395
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7376--7400
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 7408--7408
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 7411--7411
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 7413--7413
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7400--7424
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[158]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7426--7426
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7427--7427
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7440--7440
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7444--7444
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (19.66174pt too wide) in paragraph at lines 7446--7446
+\TU/lmr/m/n/10 2517M22.14;PPP1R16A|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7424--7448
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 7449--7449
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (3.67174pt too wide) in paragraph at lines 7470--7470
+[]|\TU/lmr/m/n/10 HSD17B12;MIR129- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7448--7472
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[159]
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7477--7477
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (20.75174pt too wide) in paragraph at lines 7481--7481
+[]|\TU/lmr/m/n/10 ANKRD30BL;MIR663B|  
+ []
+
+
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7485--7485
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7487--7487
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7488--7488
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7493--7493
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7472--7496
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7516--7516
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7496--7520
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[160]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7522--7522
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7520--7544
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7547--7547
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7548--7548
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (3.67174pt too wide) in paragraph at lines 7559--7559
+[]|\TU/lmr/m/n/10 HSD17B12;MIR129- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7544--7568
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[161]
+Overfull \hbox (6.18175pt too wide) in paragraph at lines 7576--7576
+[]|\TU/lmr/m/n/10 RASSF1;ZMYND10- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7588--7588
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 7589--7589
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7568--7592
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7593--7593
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7606--7606
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7592--7616
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[162]
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7619--7619
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (23.74174pt too wide) in paragraph at lines 7625--7625
+[]|\TU/lmr/m/n/10 GALNT8;KCNA6;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7629--7629
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7630--7630
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7637--7637
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7616--7640
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7642--7642
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (18.39174pt too wide) in paragraph at lines 7653--7653
+[]|\TU/lmr/m/n/10 AC079154.1;CNTNAP5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7640--7664
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[163]
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7666--7666
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7669--7669
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7671--7671
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7684--7684
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7687--7687
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7664--7688
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7693--7693
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7697--7697
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 7701--7701
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 7702--7702
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (21.74174pt too wide) in paragraph at lines 7710--7710
+[]|\TU/lmr/m/n/10 DIO3;DIO3OS;MIR1247|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7688--7712
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[164]
+Overfull \hbox (3.67174pt too wide) in paragraph at lines 7717--7717
+[]|\TU/lmr/m/n/10 HSD17B12;MIR129- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7721--7721
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7727--7727
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7729--7729
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7712--7736
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7747--7747
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7749--7749
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7736--7760
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[165]
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7773--7773
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7760--7784
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7797--7797
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7784--7808
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[166]
+Overfull \hbox (0.89174pt too wide) in paragraph at lines 7810--7810
+[]|\TU/lmr/m/n/10 CTNNA2;LRRTM1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7808--7832
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7833--7833
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7851--7851
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7852--7852
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7854--7854
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7855--7855
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7832--7856
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[167]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7860--7860
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7871--7871
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (3.67174pt too wide) in paragraph at lines 7873--7873
+[]|\TU/lmr/m/n/10 HSD17B12;MIR129- 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7877--7877
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7856--7880
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7885--7885
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (3.67174pt too wide) in paragraph at lines 7887--7887
+[]|\TU/lmr/m/n/10 HSD17B12;MIR129- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7880--7904
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[168]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7908--7908
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7914--7914
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7904--7928
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 7932--7932
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7944--7944
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7928--7952
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[169]
+Overfull \hbox (64.64174pt too wide) in paragraph at lines 7965--7965
+[]|\TU/lmr/m/n/10 HIST1H2BB;HIST1H3C;U91328.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7952--7976
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 7977--7977
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7980--7980
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 7981--7981
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (20.48174pt too wide) in paragraph at lines 7989--7989
+\TU/lmr/m/n/10 AS4;HOXB7;MIR196A1|  
+ []
+
+
+Overfull \hbox (64.64174pt too wide) in paragraph at lines 7991--7991
+[]|\TU/lmr/m/n/10 HIST1H2BB;HIST1H3C;U91328.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 7976--8000
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[170]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8000--8024
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8043--8043
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8024--8048
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[171]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8055--8055
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8048--8072
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8082--8082
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (64.64174pt too wide) in paragraph at lines 8083--8083
+[]|\TU/lmr/m/n/10 HIST1H2BB;HIST1H3C;U91328.2|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8088--8088
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8072--8096
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[172]
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 8100--8100
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8096--8120
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.72174pt too wide) in paragraph at lines 8121--8121
+[]|\TU/lmr/m/n/10 CIDEB;LTB4R;LTB4R2|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8130--8130
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8120--8144
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[173]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8144--8168
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 8175--8175
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8181--8181
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8168--8192
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[174]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8195--8195
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8192--8216
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8225--8225
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8232--8232
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8216--8240
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[175]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8240--8264
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8266--8266
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8272--8272
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8264--8288
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[176]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8288--8312
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8319--8319
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8312--8336
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[177]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8337--8337
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8336--8360
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8370--8370
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8360--8384
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[178]
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 8393--8393
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8384--8408
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8415--8415
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8408--8432
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[179]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8432--8456
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.72174pt too wide) in paragraph at lines 8457--8457
+[]|\TU/lmr/m/n/10 CIDEB;LTB4R;LTB4R2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8456--8480
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[180]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 8494--8494
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8480--8504
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8517--8517
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8504--8528
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[181]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8528--8552
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8569--8569
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8552--8576
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[182]
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 8577--8577
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8599--8599
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8576--8600
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8604--8604
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8600--8624
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[183]
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8631--8631
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8646--8646
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8624--8648
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8648--8672
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[184]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8676--8676
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8672--8696
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8703--8703
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8696--8720
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[185]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8728--8728
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8736--8736
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8737--8737
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8720--8744
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8761--8761
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8744--8768
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[186]
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 8779--8779
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8768--8792
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8814--8814
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8792--8816
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[187]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8818--8818
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8816--8840
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[188]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8840--8864
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8872--8872
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8864--8888
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[189]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8888--8912
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8912--8936
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[190]
+Overfull \hbox (33.54175pt too wide) in paragraph at lines 8959--8959
+\TU/lmr/m/n/10 AS3;HOXA3;HOXA4;RP1- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8936--8960
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 8977--8977
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8960--8984
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[191]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 8984--9008
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9021--9021
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9029--9029
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9008--9032
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[192]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9036--9036
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 9040--9040
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9055--9055
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9032--9056
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9057--9057
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 9071--9071
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9056--9080
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[193]
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9091--9091
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9097--9097
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9080--9104
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9104--9128
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[194]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9147--9147
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9148--9148
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (16.87175pt too wide) in paragraph at lines 9150--9150
+[]|\TU/lmr/m/n/10 APCDD1L;APCDD1L- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9128--9152
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (16.87175pt too wide) in paragraph at lines 9162--9162
+[]|\TU/lmr/m/n/10 APCDD1L;APCDD1L- 
+ []
+
+
+Overfull \hbox (21.04175pt too wide) in paragraph at lines 9165--9165
+[]|\TU/lmr/m/n/10 AF186192.1;AF186192.5|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9152--9176
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[195]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9176--9200
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9200--9224
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[196]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9224--9248
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9248--9272
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[197]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 9275--9275
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (16.87175pt too wide) in paragraph at lines 9280--9280
+[]|\TU/lmr/m/n/10 APCDD1L;APCDD1L- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9272--9296
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9316--9316
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9296--9320
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[198]
+Overfull \hbox (16.87175pt too wide) in paragraph at lines 9334--9334
+[]|\TU/lmr/m/n/10 APCDD1L;APCDD1L- 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9335--9335
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9320--9344
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9354--9354
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (16.87175pt too wide) in paragraph at lines 9367--9367
+[]|\TU/lmr/m/n/10 APCDD1L;APCDD1L- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9344--9368
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[199]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9389--9389
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9368--9392
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9413--9413
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9392--9416
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[200]
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9423--9423
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9416--9440
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 9448--9448
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9440--9464
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[201]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9464--9488
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9505--9505
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9488--9512
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[202]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9512--9536
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 9538--9538
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9536--9560
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[203]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9560--9584
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9584--9608
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[204]
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9617--9617
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9622--9622
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 9624--9624
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9608--9632
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 9652--9652
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9632--9656
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[205]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9657--9657
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 9669--9669
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9656--9680
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 9700--9700
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9680--9704
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[206]
+Overfull \hbox (16.87175pt too wide) in paragraph at lines 9712--9712
+[]|\TU/lmr/m/n/10 APCDD1L;APCDD1L- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9704--9728
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 9732--9732
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9737--9737
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9728--9752
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[207]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9760--9760
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9752--9776
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9776--9800
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[208]
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 9814--9814
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9800--9824
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 9828--9828
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9839--9839
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9824--9848
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[209]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9870--9870
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9848--9872
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9874--9874
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9872--9896
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[210]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9904--9904
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9896--9920
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9929--9929
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9920--9944
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[211]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9948--9948
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 9967--9967
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9944--9968
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 9976--9976
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 9990--9990
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9968--9992
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[212]
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 9996--9996
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 10003--10003
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 9992--10016
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 10019--10019
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 10023--10023
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10039--10039
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10016--10040
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[213]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10063--10063
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10040--10064
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10069--10069
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10064--10088
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[214]
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10111--10111
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10088--10112
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10112--10136
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[215]
+Overfull \hbox (23.27174pt too wide) in paragraph at lines 10139--10139
+\TU/lmr/m/n/10 359M8.1;POU4F3;RP11- 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 10140--10140
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10136--10160
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10160--10184
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[216]
+Overfull \hbox (26.74174pt too wide) in paragraph at lines 10193--10193
+[]|\TU/lmr/m/n/10 TMEM176A;TMEM176B|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10184--10208
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.72174pt too wide) in paragraph at lines 10225--10225
+[]|\TU/lmr/m/n/10 CIDEB;LTB4R;LTB4R2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10208--10232
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[217]
+Overfull \hbox (21.72174pt too wide) in paragraph at lines 10237--10237
+[]|\TU/lmr/m/n/10 CIDEB;LTB4R;LTB4R2|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10246--10246
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10247--10247
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10232--10256
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10261--10261
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10256--10280
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[218]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10280--10304
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.72174pt too wide) in paragraph at lines 10320--10320
+[]|\TU/lmr/m/n/10 CIDEB;LTB4R;LTB4R2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10304--10328
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[219]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10328--10352
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10367--10367
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10369--10369
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10352--10376
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[220]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10376--10400
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10400--10424
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[221]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10424--10448
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10448--10472
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[222]
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 10476--10476
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (0.62175pt too wide) in paragraph at lines 10483--10483
+[]|\TU/lmr/m/n/10 NANOS3;MIR181C|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10472--10496
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10496--10520
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[223]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10520--10544
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.38174pt too wide) in paragraph at lines 10545--10545
+[]|\TU/lmr/m/n/10 AMH;JSRP1;MIR4321|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10544--10568
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[224]
+Overfull \hbox (0.62175pt too wide) in paragraph at lines 10579--10579
+[]|\TU/lmr/m/n/10 NANOS3;MIR181C|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10568--10592
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[225]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10592--10616
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (46.86174pt too wide) in paragraph at lines 10632--10632
+[]|\TU/lmr/m/n/10 LINC00526;LINC00667;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10616--10640
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[226]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10640--10664
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10664--10688
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[227]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10688--10712
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10712--10736
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[228]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10736--10760
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10760--10784
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[229]
+Overfull \hbox (2.01175pt too wide) in paragraph at lines 10794--10794
+[]|\TU/lmr/m/n/10 NBEAL2;NRADDP|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10784--10808
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10808--10832
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[230]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10832--10856
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10856--10880
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[231]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10880--10904
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10904--10928
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[232]
+Overfull \hbox (2.01175pt too wide) in paragraph at lines 10945--10945
+[]|\TU/lmr/m/n/10 NBEAL2;NRADDP|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10928--10952
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10952--10976
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[233]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 10976--11000
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11000--11024
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[234]
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 11041--11041
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11024--11048
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11048--11072
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[235]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11072--11096
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11096--11120
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[236]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11120--11144
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11144--11168
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[237]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11168--11192
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11192--11216
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[238]
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 11220--11220
+[]|\TU/lmr/m/n/10 GABRA5;GABRB3|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11216--11240
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11240--11264
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[239]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11264--11288
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.62175pt too wide) in paragraph at lines 11289--11289
+[]|\TU/lmr/m/n/10 NANOS3;MIR181C|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11288--11312
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[240]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11312--11336
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11336--11360
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[241]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11360--11384
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.01175pt too wide) in paragraph at lines 11393--11393
+[]|\TU/lmr/m/n/10 NBEAL2;NRADDP|  
+ []
+
+
+Overfull \hbox (7.58174pt too wide) in paragraph at lines 11394--11394
+[]|\TU/lmr/m/n/10 GLYATL1;GLYATL2|  
+ []
+
+
+Overfull \hbox (7.69174pt too wide) in paragraph at lines 11404--11404
+[]|\TU/lmr/m/n/10 CCNYL2;LINC00839|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11384--11408
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[242]
+Overfull \hbox (7.58174pt too wide) in paragraph at lines 11415--11415
+[]|\TU/lmr/m/n/10 GLYATL1;GLYATL2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11408--11432
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11432--11456
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[243]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11456--11480
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 11495--11495
+[]|\TU/lmr/m/n/10 GABRA6;GABRB2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11480--11504
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11504--11528
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[244]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11528--11552
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11552--11576
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[245]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11576--11600
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11600--11624
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[246]
+Overfull \hbox (2.01175pt too wide) in paragraph at lines 11645--11645
+[]|\TU/lmr/m/n/10 NBEAL2;NRADDP|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11624--11648
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 11658--11658
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (7.69174pt too wide) in paragraph at lines 11669--11669
+[]|\TU/lmr/m/n/10 CCNYL2;LINC00839|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11648--11672
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[247]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11672--11696
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11696--11720
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[248]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 11728--11728
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 11729--11729
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 11741--11741
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11720--11744
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 11748--11748
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 11759--11759
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11744--11768
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[249]
+Overfull \hbox (49.50174pt too wide) in paragraph at lines 11778--11778
+[]|\TU/lmr/m/n/10 AC018730.4;LINC01159;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11768--11792
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 11796--11796
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (1.58174pt too wide) in paragraph at lines 11797--11797
+[]|\TU/lmr/m/n/10 GABRA6;GABRB2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11792--11816
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[250]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11818--11818
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11816--11840
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11847--11847
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11840--11864
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[251]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11873--11873
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11881--11881
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11864--11888
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11896--11896
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11901--11901
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11888--11912
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[252]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11914--11914
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11915--11915
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11932--11932
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11933--11933
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11912--11936
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 11938--11938
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 11940--11940
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11936--11960
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[253]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11961--11961
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11975--11975
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11979--11979
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11960--11984
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 11999--11999
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 11984--12008
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[254]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12025--12025
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12008--12032
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12034--12034
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12032--12056
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[255]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12079--12079
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12056--12080
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12080--12104
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[256]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12104--12128
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12129--12129
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12128--12152
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[257]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12159--12159
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12152--12176
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12178--12178
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12181--12181
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12187--12187
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12176--12200
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[258]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12200--12224
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12228--12228
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12224--12248
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[259]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12248--12272
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12272--12296
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[260]
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 12305--12305
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12296--12320
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 12335--12335
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12320--12344
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[261]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12347--12347
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12344--12368
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12368--12392
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[262]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12392--12416
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12416--12440
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[263]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12440--12464
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12468--12468
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 12471--12471
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12473--12473
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12478--12478
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12464--12488
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[264]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12503--12503
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12488--12512
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 12516--12516
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12522--12522
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12525--12525
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12534--12534
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12512--12536
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[265]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12559--12559
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12536--12560
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[266]
+Overfull \hbox (34.09174pt too wide) in paragraph at lines 12567--12567
+[]|\TU/lmr/m/n/10 AC097467.2;NPY2R;RP11- 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12560--12584
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 12594--12594
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12584--12608
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[267]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12608--12632
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12640--12640
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12646--12646
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12632--12656
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12669--12669
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12675--12675
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12656--12680
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[268]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12688--12688
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12700--12700
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12680--12704
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12709--12709
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12717--12717
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12704--12728
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[269]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12728--12752
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 12755--12755
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12759--12759
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12752--12776
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[270]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12797--12797
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12776--12800
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12809--12809
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12821--12821
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12800--12824
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[271]
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 12835--12835
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 12838--12838
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 12847--12847
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12824--12848
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 12865--12865
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12848--12872
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[272]
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12886--12886
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12872--12896
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12896--12920
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12931--12931
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (561.10176pt too wide) in paragraph at lines 12936--12936
+[]|\TU/lmr/m/n/10 PCDHA1;PCDHA10;PCDHA11;PCDHA12;PCDHA13;PCDHA2;PCDHA3;PCDHA4;P
+CDHA5;PCDHA6;PCDHA7;PCDHA8;PCDHA9;PCDHAC1|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12920--12944
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[273]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12944--12968
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 12988--12988
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12968--12992
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[274]
+Overfull \hbox (4.78174pt too wide) in paragraph at lines 13009--13009
+[]|\TU/lmr/m/n/10 AC003006.7;ZNF671|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 12992--13016
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.78174pt too wide) in paragraph at lines 13023--13023
+[]|\TU/lmr/m/n/10 AC003006.7;ZNF671|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13016--13040
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[275]
+Overfull \hbox (4.78174pt too wide) in paragraph at lines 13045--13045
+[]|\TU/lmr/m/n/10 AC003006.7;ZNF671|  
+ []
+
+
+Overfull \hbox (4.78174pt too wide) in paragraph at lines 13054--13054
+[]|\TU/lmr/m/n/10 AC003006.7;ZNF671|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13040--13064
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 13084--13084
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13064--13088
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[276]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13088--13112
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 13123--13123
+[]|\TU/lmr/m/n/10 AC010168.1;H2AFJ|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13112--13136
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[277]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13136--13160
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 13167--13167
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13160--13184
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[278]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 13192--13192
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13184--13208
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13208--13232
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[279]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 13254--13254
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13232--13256
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 13258--13258
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13256--13280
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[280]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 13300--13300
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13280--13304
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13304--13328
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[281]
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 13337--13337
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (2.00174pt too wide) in paragraph at lines 13344--13344
+[]|\TU/lmr/m/n/10 KCNJ3;AC061961.2|  
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13328--13352
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13352--13376
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[282]
+Overfull \hbox (79.62325pt too wide) in alignment at lines 13376--13380
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+No file book1.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 13385.
+[283]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 13385.
+(./book1.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 13385.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 13385
+.
+Package rerunfilecheck Info: File `book1.out' has not changed.
+(rerunfilecheck)             Checksum: F91C2AF17F109CFD2D19A90FD7CCFAFD.
+ ) 
+Here is how much of TeX's memory you used:
+ 24573 strings out of 494894
+ 473312 string characters out of 6175103
+ 644378 words of memory out of 5000000
+ 28284 multiletter control sequences out of 15000+600000
+ 545089 words of font info for 58 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 51i,9n,119p,802b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on book1.pdf (283 pages).

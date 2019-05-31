@@ -4,7 +4,7 @@ author: "艾米森生命科技有限公司"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-geomrtry: margin=0.2cm
+geomrtry: margin=0.1cm
 classoption: openany
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
@@ -34,10 +34,10 @@ install.packages("bookdown")
     options(digits = 3)
    #for(nm in names(Report.DMR)){
     # cat("## ",nm)
-     kable(Report.DMR[[1]],format="latex",booktabs = T,longtable=T, row.names = FALSE) %>%
-     kable_styling(latex_options = c("striped", "hold_position","repeat_header")) %>%
-       column_spec(1, width = "3cm") %>%
-        column_spec(12, width = "6cm")
+    
+     kable(Report.DMR[[1]][,1:11],format="latex",booktabs = TRUE,longtable=T, row.names = FALSE) %>%
+       kable_styling(latex_options = c("striped", "repeat_header","scale_down"),full_width = F) %>%
+         column_spec(1, width = "3cm")
        
      
    #}

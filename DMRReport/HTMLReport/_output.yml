@@ -1,0 +1,9 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">食管癌基因组差异甲基化区域(DMR)</a></li>
+      after: |
+        <li>武汉艾米森</li>
+    download: ["pdf", "epub"]

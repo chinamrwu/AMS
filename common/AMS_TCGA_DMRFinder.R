@@ -9,10 +9,12 @@ library(sqldf)
 source('F:/projects/common/islandDMR.R')
 
 #########################
+projectId      <- 'TCGA-UCEC' # TCGA project code,like 'TCGA-BRCA for breast cance\COAD for colon adenom
 inputMat450    <- 'F:/projects/allData/TCGA/UCEC_450k.txt'     # The matrix file from TCGA 450k
 inputProbeInf  <- 'F:/projects/allData/TCGA/probeInf.txt' # probe information file
 inputClinic    <- 'F:/projects/allData/TCGA/clinical.tsv' # clinical information all the patients
-projectId      <- 'TCGA-UCEC' # TCGA project code,like 'TCGA-BRCA for breast cance\COAD for colon adenom
+
+outputDir      <- 'F:/projects/UCEC/output/Report'
 #####################################################################################################
 print('Loading methylation data......')
 mat450 <- fread(inputMat450,sep="\t",header=T,stringsAsFactors=F,check.names=F)
@@ -71,7 +73,7 @@ T2 <- data.frame(T2,stringsAsFactors=F)
 T2$SampleNumber <- as.numeric(T2$SampleNumber)
 Report.tables.siteSample <- T2  #####
 rm(list=c('tmp1','tmp2','tmp3','T1','T2','siteSample','site'))
-
+write.csv(Report.tables.siteSample,file=paste0(outputDir,'SampleInf.csv'),quote=F,row.names=F)
 ##################################################################################################
 patientInf <- data.frame('sampleId'=rownames(mat450),'label'=lbls,stringsAsFactors=F,
 'patientId'=as.character(sapply(rownames(mat450),function(v){a <- strsplit(v,"-")[[1]][1:3];paste0(a,collapse="-")})))
@@ -98,7 +100,11 @@ for(site in sites){
 	 }
 	 print("---------------------------------------------------------------")
 }
-names(Report.DMR) <- c("overall",nms)
+names(Report.DMR) <- c('overall',nms)
+nms <- names(Report.DMR)
+for(i in 1:length(nms)){
+   write.csv(Report.DMR[[i]],file=sprintf('%s/DMR_%d_%s.csv',outputDir,i,nms[i]),row.names=F,quote=F)
+}
 #########################################################
 
 print('Generating  ROC plot for each DMR......')

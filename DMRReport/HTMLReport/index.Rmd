@@ -32,10 +32,10 @@ dataDir <- 'F:/projects/UCEC/output/Report/'
 
 # 差异甲基化区(DMR)
 
-```{r DMRInf,echo=FALSE,results="asis",include=TRUE,knitr.table.format = 'html'}
+```{r DMRInf,echo=FALSE,results="asis",include=T,knitr.table.format = 'html'}
       library(tidyr)
       library(kableExtra)
-      library(xtable)
+      #library(xtable)
     
     files <- list.files(path=dataDir)
     dmrFiles <- files[grepl('DMR_',files)]
@@ -48,10 +48,13 @@ dataDir <- 'F:/projects/UCEC/output/Report/'
        cat('##  ',sites[i])
        obj <- read.csv(paste0(dataDir,dmrFiles[i]),header = T,stringsAsFactors = F) 
        cat("\n")
-       tbl <- obj[1:200,] %>%
-         kable(format = "html",row.names = FALSE) %>%
-         kable_styling(bootstrap_options = c("striped", "hover", "condensed","responsive"),full_width = T,font_size =12,fixed_thead=T)
-       print(tbl)
+       tb <- obj[1:1000,] %>%
+       kable(format = "html",row.names = FALSE) %>%
+                column_spec(1, width = "10em", background = "yellow")
+      
+       
+      print(tb)
+   
        cat("\n")
     }
 ```

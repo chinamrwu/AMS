@@ -77,5 +77,5 @@ pdf('output/UCEC_ROC_5genes_20190605.pdf',width=10,height=10)
 	}
 	par(mar=c(0.5,0.5,2,0.5))
 	layout(matrix(1:4,ncol=2,byrow=T),heights=c(5,5,5,5))
-	 plot(ROCs[[9]],print.auc=TRUE,print.thres="best",col='blue',legacy.axes = TRUE,main=names(ROCs)[i],print.auc.cex=2.0,print.thres.cex=1.5)
+	 plot(ROCs[[9]],print.auc=TRUE,print.thres="best",col='blue',legacy.axes = TRUE,main=names(ROCs)[9],print.auc.cex=2.0,print.thres.cex=1.5)
 dev.off()

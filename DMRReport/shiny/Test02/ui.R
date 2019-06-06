@@ -7,25 +7,36 @@
 
 
 shinyUI(pageWithSidebar(
-
+  
   #  Application title
-  headerPanel("¹¬¾±ÄÚÄ¤°©²îÒì¼×»ù»¯(DMR)±¨¸æ"),
-  sidebarPanel(
-    selectInput("disease name", "Choose the disease name:", 
-                choices = c("BRCA", "CESC", "CRC")),
-	 selectInput("dataset", "Choose a dataset:", 
+  headerPanel("å®«é¢ˆå†…è†œç™Œå·®å¼‚ç”²åŸºåŒ–(DMR)æŠ¥å‘Š"),
+  sidebarPanel(width=3,
+    tags$style(HTML('hr {border-top: 2px solid black;width:100%}')),
+    selectInput("cancerName", "Choose the disease name:", 
+                choices = c('ç»“ç›´è‚ ç™Œ', 
+					             'å®«é¢ˆç™Œ', 
+									 'é£Ÿç®¡ç™Œ',
+									 'å­å®«å†…è†œç™Œ'
+									 )
+	 ),
+	 selectInput("site", "é€‰æ‹©ä¸€ä¸ªç—…ç¶ä½ç½®:", 
                 choices = c("rock", "pressure", "cars")),
-    sliderInput("adjCancer","°©ÅÔBeta²»³¬¹ı:", min=0, max=1, value=0.1,step=0.05),
-    sliderInput("Cancer", "°©Ö¢Beta²»Ğ¡ÓÚ:",   min= 0, max=1, value = 0.3, step= 0.05),
-    sliderInput("dltB", "dltBeta²»Ğ¡ÓÚ:", min = 0.1, max = 1, value = 0.25,step=0.05)
+	 #hr(),
+    sliderInput("adjCancer","ç™Œæ—Betaä¸è¶…è¿‡:", min=0, max=0.5, value=0.1,step=0.05),
+    sliderInput("Cancer", "ç™Œç—‡Betaä¸å°äº:",   min= 0, max=1, value = 0.3, step= 0.05),
+    sliderInput("dltB", "dltBetaä¸å°äº:", min = 0.2, max = 1, value = 0.25,step=0.05),
+	 hr(),
+	 tabPanel('test',plotOutput("rocPlot"))
    ),
 
   # Show a table summarizing the values entered
   mainPanel(
     tabsetPanel(
-        tabPanel("Sample Information", plotOutput("plot")), 
-        tabPanel("DMR", verbatimTextOutput("summary")), 
-        tabPanel("plot", tableOutput("table"))
-  )
-))
+        tabPanel("Sample Information", tableOutput("sampleInf")), 
+        tabPanel("DMR", dataTableOutput("DMR")), 
+        tabPanel("plot", plotOutput("plot")) 
+    )
+  ))
+)
+
 ###########################################################################################

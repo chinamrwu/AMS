@@ -73,7 +73,7 @@ T2 <- data.frame(T2,stringsAsFactors=F)
 T2$SampleNumber <- as.numeric(T2$SampleNumber)
 Report.tables.siteSample <- T2  #####
 rm(list=c('tmp1','tmp2','tmp3','T1','T2','siteSample','site'))
-write.csv(Report.tables.siteSample,file=paste0(outputDir,'SampleInf.csv'),quote=F,row.names=F)
+write.csv(Report.tables.siteSample,file=paste0(outputDir,'/SampleInf.csv'),quote=F,row.names=F)
 ##################################################################################################
 patientInf <- data.frame('sampleId'=rownames(mat450),'label'=lbls,stringsAsFactors=F,
 'patientId'=as.character(sapply(rownames(mat450),function(v){a <- strsplit(v,"-")[[1]][1:3];paste0(a,collapse="-")})))

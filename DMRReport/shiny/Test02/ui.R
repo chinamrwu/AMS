@@ -25,18 +25,30 @@ shinyUI(pageWithSidebar(
     sliderInput("adjCancer","癌旁Beta不超过:", min=0, max=0.5, value=0.1,step=0.05),
     sliderInput("Cancer", "癌症Beta不小于:",   min= 0, max=1, value = 0.3, step= 0.05),
     sliderInput("dltB", "dltBeta不小于:", min = 0.2, max = 1, value = 0.25,step=0.05),
-	 hr(),
+	 tags$hr(style="border-color: red;"),
 	 tabPanel('test',plotOutput("rocPlot"))
    ),
 
   # Show a table summarizing the values entered
+  #mainPanel(
+  #  tabsetPanel(
+  #      tabPanel("Sample Information", tableOutput("sampleInf")), 
+  #      tabPanel("DMR", dataTableOutput("DMR")), 
+  #  )
+  #)
   mainPanel(
     tabsetPanel(
         tabPanel("Sample Information", tableOutput("sampleInf")), 
-        tabPanel("DMR", dataTableOutput("DMR")), 
-        tabPanel("plot", plotOutput("plot")) 
+        tabPanel("DMR",  
+					fluidRow(dataTableOutput("DMR1")),
+					tags$hr(style="border-color: blue;"),
+					fluidRow(
+		           plotOutput('rocTest')
+					)
+		  )
     )
-  ))
-)
+  )
+
+))
 
 ###########################################################################################

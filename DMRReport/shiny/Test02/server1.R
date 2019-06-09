@@ -2,8 +2,7 @@ library(shiny)
 library(data.table)
 library(pROC)
 library(sqldf)
-library(DT)
-library(tidyr)
+
 
 # Define server logic for slider examples
 
@@ -22,59 +21,34 @@ loadData <- function(cancerCode){
 	})
    names(dmrs) <- dmrNames
 	sampleInf <- read.csv(paste0(dataDir,'sampleInf.csv'),header=T,stringsAsFactors=F)
-	mat <- fread(sprintf('F:/projects/allData/TCGA/%s_450k.txt',cancerCode),sep="\t",header=T,stringsAsFactors=F)
-	mat <- as.data.frame(mat)
-	list('DMR'=dmrs,'sampleInf'=sampleInf,'mat'=mat)
+	list('DMR'=dmrs,'sampleInf'=sampleInf)
 }
 
 shinyServer(function(input, output,session) {
-   dat <- reactiveValues();
-
+  
    dataSet <- reactive({
 	    cn   <- as.character(input$cancerName);
-		 print("loading all the data");
 		 obj  <- NULL
 	    ifelse("结直肠癌" ==cn,   obj <- loadData('CRCA') ,
 		 ifelse("宫颈癌"   ==cn,   obj <- loadData('CESA'),
 		 ifelse("食管癌"   ==cn,   obj <- loadData('ESCA'),obj <- loadData('UCEC'))));
-		 dat$DMR <- obj$DMR
-		 dat$sampleInf <- obj$sampleInf
-		 dat$mat <- obj$mat
        return(obj)
 	})
    observe({
       obj1   <- dataSet();
-		updateSelectInput(session, "site", choices = names(dat$DMR))
+		updateSelectInput(session, "site", choices = names(obj1$DMR))
 	})
 	##########################
 	output$sampleInf <- renderTable({
        obj <- dataSet();
 		 obj$sampleInf
 	})
-	output$DMR1 <- renderDataTable({
+	output$DMR <- renderDataTable({
       site <- as.character(input$site)
-		#obj <- dataSet();
-		obj <- dat$DMR[[site]]
-		obj[,1:11]  %>% DT::datatable(options=list(scrollY = '350px',lengthMenu = c(10, 20, 50,100), pageLength = 10),selection='single') %>% 
-		formatRound(columns=c('betaN', 'betaC', 'dltBeta', 'senesitivity', 'specificity', 'AUC'), digits=4)
-      
-	},server=T)
+		obj <- dataSet();
+		obj <- obj$DMR[[site]]
+		obj[,1:11] %>% datatable() %>%
 
-	output$rocTest <- renderText(
-      {
-		 selectedRow <- input$DMR1_rows_selected;
-		 print(selectedRow[1])
-		  if(!is.null(selectedRow)) {
-			indx <- as.integer(selectedRow[1])
-			site <- as.character(input$site)
-			print(site)
-			mat <- dat$mat;
-			print("OK")
-			#print(dat$DMR[[site]][indx,])
-			#probes <- 
-		   
-		}
-      }
-	)
+	},options=list( scrollY = '350px',aLengthMenu = c(10, 20, 50), iDisplayLength = 10))
 
 })

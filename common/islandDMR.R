@@ -112,11 +112,11 @@ getDMROfBlock <- function(block,M450){
 				 #sensitivity   <- mean(objROC$sensitivities) ### Need modification here
 				 #specificity <- mean(objROC$specificities)
             
-				 #x <- objROC$sensitivities+objROC$specificities
-				 #mxIndex <- which(x==max(x))
+				 x <- objROC$sensitivities+objROC$specificities
+				 mxIndex <- which(x==max(x))
 				 
-				 x <- abs(objROC$thresholds - 0.5)
-             mxIndex <- which(x==min(x))
+				 #x <- abs(objROC$thresholds - 0.5)
+             #mxIndex <- which(x==min(x))
 				 
 				 sensitivity <- objROC$sensitivities[mxIndex]
 				 specificity <- objROC$specificities[mxIndex]
@@ -217,7 +217,7 @@ getDMR <- function(M450){
 		 return(c())
 	 }
 
-	 if(mtb < 7 & length(tb) >= 2){ 
+	 if(mtb[1] < 7 & length(tb) >= 2){ 
 	     print(sprintf("%d %s samples are too fewer ,the statistical confidence will weak",mtb,names(mtb)))
 		  return(c())
 	  }
@@ -228,11 +228,15 @@ getDMR <- function(M450){
     dltBeta <- as.numeric(sapply(blocks,blockDltBeta,M0=M450))
 	 blocks <- blocks[which(dltBeta>0.20)]
 	 print(sprintf("There are %d CpG islands will be analyzed",length(blocks)))
+	 ##############
+
 	 k0 <- c()
-	 for(obj in blocks){
-       k0 <- rbind(k0,getDMROfBlock(obj,M450))
+	 if(length(blocks)>0){
+	   for(obj in blocks){
+         k0 <- rbind(k0,getDMROfBlock(obj,M450))
+	   }
+		if(!is.null(k0)){  k0 <- k0[order(k0$AUC,decreasing=T),]}
 	 }
-	 k0 <- k0[order(k0$AUC,decreasing=T),]
 	 k0
 }
 findComplements <- function(matDMR){

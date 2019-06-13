@@ -4,7 +4,6 @@ library(sqldf)
 
 setwd('F:/projects/STAD')
 matInf <- read.table('data/GSE99553_series_matrix.txt',sep="\n",nrows=72,stringsAsFactors=F)
-
 accs <- matInf[grepl('!Sample_geo_accession',matInf[,1]),]
 accs <- strsplit(accs,"\t")[[1]][-1]
 
@@ -29,7 +28,25 @@ accs <- strsplit(accs,"\t")[[1]][-1]
 tmp <- matInf[grepl('!Sample_characteristics_ch1',matInf[,1]),]
 tmp <- strsplit(tmp,"\t")[[1]][-1]
 tmp <- as.character(sapply(tmp,function(v){strsplit(v,": ")[[1]][2]}))
-tmp <- sapply(tmp,function(v){
+tmp1 <- as.character(sapply(tmp,function(v){
+  a<-   ifelse(v=='intestinal metaplasia biopsy from gastric antrum',      paste0('IM','_antrum'),
+	ifelse(v=='intestinal metaplasia biopsy from gastric body',        paste0('IM','_body'),
+	ifelse(v=='intestinal metaplasia biopsy from gastric cardia',      paste0('IM','_cardia'),
+	ifelse(v=='mild intestinal metaplasia biopsy from gastric antrum', paste0('MIM','_antrum'),
+	ifelse(v=='normal biopsy from gastric antrum',                     paste0('normal','_antrum'),
+	ifelse(v=='normal biopsy from gastric body',                       paste0('normal','_body'),
+	ifelse(v=='normal biopsy from gastric cardia',                     paste0('normal','_cardia'),NA)))))))
+	a
+}))
+tmp1 <- sapply(tmp1,function(v){strsplit(v,"_")[[1]]})
+tmp1 <- data.frame(t(tmp1),stringsAsFactors=F)
+rownames(tmp1) <- 1:dim(tmp1)[1]
+colnames(tmp1) <- c('label','site')
+tmp1$acc <- accs
+sampleInf <- tmp1[,c('acc','label','site')]
+write.table(sampleInf,file='data/GSE103186_sampleInf.txt',sep="\t",col.names=T,row.names=F,quote=F)
 
-
-})
+indx1 <- which(grepl('!series_matrix_table_begin',matInf[,1]))+1
+indx2 <- which(grepl('!series_matrix_table_end',matInf[,1]))-1
+mat0  <- matInf[indx1:indx2,]
+write.table(mat0,file='data/matGSE103186.txt',sep="\n",col.names=F,row.names=F,quote=F)

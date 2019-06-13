@@ -1,0 +1,44 @@
+---
+title: "Differential Methylation Regions on Genome of Gastric Cancer"
+author: "bioinformatic group@AMS"
+date: "June 13,2019"
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+
+---
+
+```{r setup, include=FALSE,echo=F}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(data.table)
+library(sqldf)
+library(umap)
+library(kableExtra)
+library(tidyr)
+
+```
+
+## Datasets used in this study
+ Only two samples match gastric cancer in the methylation dataset of TCGA (The Cancer Genome Atlas), this requires us to look for more other datasets.
+ After searching the GEO repository of NCBI , we found the following 4 studies focus on the methylation status of gastric cancer genome.
+
+
+```{r sampleTable,echo=F,results='asis'}
+ 
+df1 <- data.frame('access'=c('GSE30601','GSE25869','GSE99553','GSE103186'),
+                  'platform'=c('GPL8490','GPL8490','GPL13534','GPL13534'),
+                 'normalNumber'=c(94,32,84,61),'cancerNumber'=c(203,32,0,130),
+                 'reference'=1:4)
+   
+kable(df1,"latex", booktabs = T) %>%
+  kable_styling(latex_options = c("striped"),full_width = T)
+```
+
+## Differential methylation regions of gastric cancer 
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

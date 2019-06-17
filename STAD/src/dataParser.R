@@ -50,3 +50,50 @@ indx1 <- which(grepl('!series_matrix_table_begin',matInf[,1]))+1
 indx2 <- which(grepl('!series_matrix_table_end',matInf[,1]))-1
 mat0  <- matInf[indx1:indx2,]
 write.table(mat0,file='data/matGSE103186.txt',sep="\n",col.names=F,row.names=F,quote=F)
+
+#########################################
+tmp <- read.table('data/GSE25869_series_matrix.txt',sep="\n",header=F,stringsAsFactors=F)
+acc <- strsplit(tmp[grepl('!Sample_geo_accession',tmp[,1]),1],"\t")[[1]][-1]
+src <- strsplit(tmp[grepl('!Sample_source_name_ch1',tmp[,1]),1],"\t")[[1]][-1]
+sampleCharacters <- tmp[grepl('!Sample_characteristics_ch1',tmp[,1]),1]
+tissueType <- strsplit(sampleCharacters[2],"\t")[[1]][2:65]
+tissueType <- as.character(sapply(tissueType,function(v){strsplit(v,": gastric ")[[1]][2]}))
+
+status <- strsplit(sampleCharacters[3],"\t")[[1]][2:65]
+status <- as.character(sapply(status,function(v){strsplit(v,": ")[[1]][2]}))
+indx1 <- which(grepl('!series_matrix_table_begin',tmp[,1]))+1
+indx2 <- which(grepl('!series_matrix_table_end',tmp[,1]))-1
+mat0  <- tmp[indx1:indx2,]
+write.table(mat0,file='data/matGSE25869.txt',sep="\n",col.names=F,row.names=F,quote=F)
+mat0 <- read.table('data/matGSE25869.txt',sep="\t",header=T,stringsAsFactors=F)
+rownames(mat0) <- mat0$ID_REF
+mat0 <- mat0[,-1]
+mat0 <- data.frame(t(mat0))
+mat0 <- mat0[1:64,]
+probes <- colnames(mat0)
+mat0$label <- status
+mat0 <- mat0[,c('label',probes)]
+write.table(mat0,file='data/matGSE25869.txt',sep="\t",col.names=F,row.names=F,quote=F)
+
+##############################################################################################
+
+tmp <- read.table('data/GSE30601_series_matrix.txt',sep="\n",header=F,stringsAsFactors=F)
+acc <- strsplit(tmp[grepl('!Sample_geo_accession',tmp[,1]),1],"\t")[[1]][-1]
+sampleCharacters <- tmp[grepl('!Sample_characteristics_ch1',tmp[,1]),1]
+
+status <- strsplit(sampleCharacters[2],"\t")[[1]][-1]
+status <- as.character(sapply(status,function(v){a <- strsplit(v,": ")[[1]][2];ifelse('normal'==a,'normal','cancer')}))
+
+indx1 <- which(grepl('!series_matrix_table_begin',tmp[,1]))+1
+indx2 <- which(grepl('!series_matrix_table_end',tmp[,1]))-1
+mat0  <- tmp[indx1:indx2,]
+write.table(mat0,file='data/matGSE30601.txt',sep="\n",col.names=F,row.names=F,quote=F)
+mat0 <- read.table('data/matGSE30601.txt',sep="\t",header=T,stringsAsFactors=F)
+rownames(mat0) <- mat0$ID_REF
+mat0 <- mat0[,-1]
+mat0 <- data.frame(t(mat0))
+probes <- colnames(mat0)
+mat0$label <- status
+mat0 <- mat0[,c('label',probes)]
+write.table(mat0,file='data/matGSE30601.txt',sep="\t",col.names=F,row.names=F,quote=F)
+

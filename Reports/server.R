@@ -198,15 +198,17 @@ output$leftPlot <- renderPlot(
  
 output$downloadLeft <- downloadHandler(
     filename = function() { 
-	   selectedRow <- input$DMR1_rows_selected;
+	   selectedRow <- input$DMR_rows_selected;
+		print(selectedRow)
 		plotType <- input$plotType
+		cancerCode <- input$cancerCode
 		print(plotType)
 		fname <- NULL
 		if(!is.null(selectedRow)){
 			indx <- as.integer(selectedRow[1])
 			selected <- dat$dataTable[indx,];
 			fname <- paste0(selected[1,1:4],collapse='_')
-			fname <- paste0(plotType,'_',fname,'.svg')
+			fname <- paste0(c(cancerCode,plotType,fname,'.svg'),collapse="_")
 			print(fname)
 		}
 		return(fname)

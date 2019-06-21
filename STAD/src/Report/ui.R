@@ -7,7 +7,6 @@
 
 
 shinyUI(pageWithSidebar(
-  
   #  Application title
   headerPanel('Differential Methylation Regions on Genome of Gastric Cancer'),
   sidebarPanel(width=3,

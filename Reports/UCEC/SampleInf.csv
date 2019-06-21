@@ -1,0 +1,13 @@
+site,SampleType,SampleNumber
+Endometrium,cancer,419
+Endometrium,normal,34
+--,cancer,0
+--,normal,12
+Fundus uteri,cancer,4
+Fundus uteri,normal,0
+Isthmus uteri,cancer,3
+Isthmus uteri,normal,0
+Corpus uteri,cancer,2
+Corpus uteri,normal,0
+TOTAL,cancer,428
+TOTAL,normal,46

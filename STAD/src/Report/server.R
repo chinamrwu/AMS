@@ -29,11 +29,12 @@ shinyServer(function(input, output,session) {
       dataSet();
 		minV <- min(dat$DMR$betaN);
 		maxV <- max(dat$DMR$betaN)
-		updateSliderInput(session, 'adjCancer', min =minV, max =maxV,value=(maxV+minV)/2)
+		updateSliderInput(session, 'adjCancer', min =round(minV,digits=3), max =round(maxV,digits=3),value=round((maxV+minV)/2,digits=3))
 		
 		minV <- min(dat$DMR$dltBeta);
 		maxV <- max(dat$DMR$dltBeta)
-		updateSliderInput(session, 'dltB', min =minV, max =maxV,value=(maxV+minV)/2)
+		#updateSliderInput(session, 'dltB', min =minV, max =maxV,value=(maxV+minV)/2)
+		updateSliderInput(session, 'dltB', min =round(minV,digits=3), max =round(maxV,digits=3),value=round((maxV+minV)/2,digits=3))
 	})
 	##########################
 output$DMR1 <- renderDataTable({
@@ -157,8 +158,6 @@ output$areaButton <- downloadHandler(
       write.csv(obj,fname)
     }
   )
-
-
 
   ####################################################
  

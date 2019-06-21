@@ -73,7 +73,7 @@ mat0 <- mat0[1:64,]
 probes <- colnames(mat0)
 mat0$label <- status
 mat0 <- mat0[,c('label',probes)]
-write.table(mat0,file='data/matGSE25869.txt',sep="\t",col.names=F,row.names=F,quote=F)
+write.table(mat0,file='data/matGSE25869.txt',sep="\t",col.names=T,row.names=F,quote=F)
 
 ##############################################################################################
 
@@ -95,5 +95,5 @@ mat0 <- data.frame(t(mat0))
 probes <- colnames(mat0)
 mat0$label <- status
 mat0 <- mat0[,c('label',probes)]
-write.table(mat0,file='data/matGSE30601.txt',sep="\t",col.names=F,row.names=F,quote=F)
+write.table(mat0,file='data/matGSE30601.txt',sep="\t",col.names=T,row.names=F,quote=F)
 

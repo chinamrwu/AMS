@@ -7,14 +7,15 @@ library(knitr)
 library(pROC)
 library(sqldf)
 source('F:/projects/common/islandDMR.R')
-
+dataDir <- 'F:/projects/allData/TCGA/'
 #########################
-projectId      <- 'TCGA-UCEC' # TCGA project code,like 'TCGA-BRCA for breast cance\COAD for colon adenom
-inputMat450    <- 'F:/projects/allData/TCGA/UCEC_450k.txt'     # The matrix file from TCGA 450k
-inputProbeInf  <- 'F:/projects/allData/TCGA/probeInf.txt' # probe information file
-inputClinic    <- 'F:/projects/allData/TCGA/clinical.tsv' # clinical information all the patients
-
-outputDir      <- 'F:/projects/UCEC/output/Report'
+diseaseCode    <- 'CRCA'
+projectId      <- paste0('TCGA','-','CRCA') # TCGA project code,like 'TCGA-BRCA for breast cance\COAD for colon adenom
+if('CRCA'==diseaseCode){ projectId <- c('TCGA-COAD','TCGA-READ');}
+inputMat450    <- sprintf(paste0(dataDir,'%s_450k.txt'),diseaseCode)     # The matrix file from TCGA 450k
+inputProbeInf  <- paste0(dataDir,'probeInf.txt') # probe information file
+inputClinic    <- paste0(dataDir,'clinical.tsv') # clinical information all the patients
+outputDir      <- sprintf('F:/projects/%s/output/Report',diseaseCode)
 #####################################################################################################
 print('Loading methylation data......')
 mat450 <- fread(inputMat450,sep="\t",header=T,stringsAsFactors=F,check.names=F)
@@ -24,7 +25,7 @@ mat450 <- mat450[,-1]
 mat450 <- data.frame(t(mat450),check.name=F,stringsAsFactors=F)
 mat450 <- mat450[grepl('-01A-|-11A-',rownames(mat450)),]
 print('Reading probe information ......')
-probInf <- fread(inputProbeInf,header=T,stringsAsFactors=F,check.names=F)[,-c(2,7:9)]
+probInf <- fread(inputProbeInf,header=T,stringsAsFactors=F,check.names=F)
 probInf <- as.data.frame(probInf)
 probInf <- probInf[!probInf$Chromosome %in% c('*','chrX','chrY') & probInf$Gene_Symbol !='.' & probInf$Feature_Type=='Island',]
 mat450  <- mat450[,probInf[,1]]
@@ -36,7 +37,7 @@ mat450 <- mat450[,c('label',probeIds)]
 print('Reading clinic information ......')
 
 clinic <- read.table(inputClinic,sep="\t",header=T,stringsAsFactors=F,check.names=F)
-clinic <- clinic[clinic$project_id==projectId,]
+clinic <- clinic[clinic$project_id %in% c(projectId),]
 
 sites <- unique(clinic$site_of_resection_or_biopsy)
 siteSample <- c()
@@ -100,25 +101,11 @@ for(site in sites){
 	 }
 	 print("---------------------------------------------------------------")
 }
+
+#################################################################################################
 names(Report.DMR) <- c('overall',nms)
 nms <- names(Report.DMR)
 for(i in 1:length(nms)){
    write.csv(Report.DMR[[i]],file=sprintf('%s/DMR_%d_%s.csv',outputDir,i,nms[i]),row.names=F,quote=F)
 }
-#########################################################
-
-print('Generating  ROC plot for each DMR......')
-rocPlots <- list()
-for(obj in Report.DMR){
-    obj <- obj[order(obj$dltBeta,decreasing=T),]
-	   for(i in 1:100){
-          probes <- strsplit(obj$probeIds[i],";")[[1]]
-          ID     <- obj$ID[i]
-			 geneSymbol <- obj$geneSymbol
-          
-			 betaV <- as.numeric(apply(mat450[,probes],1,mean,na.rm=T))
-			 #roc <- roc('controls'=betaV[mat450$label=='normal'],'cases'=betaV[mat450$label=='cancer']
-
-		}
-}
-
+#################################################################################################

@@ -199,26 +199,50 @@ output$leftPlot <- renderPlot(
 output$downloadLeft <- downloadHandler(
     filename = function() { 
 	   selectedRow <- input$DMR_rows_selected;
-		print(selectedRow)
+		#print(selectedRow)
 		plotType <- input$plotType
 		cancerCode <- input$cancerCode
-		print(plotType)
+		#print(plotType)
 		fname <- NULL
 		if(!is.null(selectedRow)){
 			indx <- as.integer(selectedRow[1])
 			selected <- dat$dataTable[indx,];
 			fname <- paste0(selected[1,1:4],collapse='_')
 			fname <- paste0(c(cancerCode,plotType,fname,'.svg'),collapse="_")
-			print(fname)
+			#print(fname)
 		}
 		return(fname)
 	 },
-    content = function(file) {
-      svg(file)
-		if(grepl('roc',tolower(file))){ rocPlot(input$DMR_rows_selected)}
-		else if(grepl('heatmap',tolower(file))) { heatmapPlot(input$DMR_rows_selected)}
+    content = function(filename) {
+      svg(filename)
+		if(grepl('roc',tolower(input$plotType))){rocPlot(input$DMR_rows_selected)}
+		else if(grepl('heatmap',tolower(input$plotType))) { 
+		 print(heatmapPlot(input$DMR_rows_selected))
+		}
       dev.off()
     }
 )
-
+##############################################################
+output$downloadRight <- downloadHandler(
+    filename = function() { 
+	   selectedRow <- input$DMR_rows_selected;
+		plotType <- input$plotType1
+		cancerCode <- input$cancerCode
+		fname <- NULL
+		if(!is.null(selectedRow)){
+			indx <- as.integer(selectedRow[1])
+			selected <- dat$dataTable[indx,];
+			fname <- paste0(selected[1,1:4],collapse='_')
+			fname <- paste0(c(cancerCode,plotType,fname,'.svg'),collapse="_")
+		}
+		return(fname)
+	 },
+    content = function(filename) {
+      svg(filename)
+		if(grepl('areaplot',tolower(input$plotType1))){print(areaPlot(input$DMR_rows_selected))}
+		else if(grepl('boxplot',tolower(input$plotType1))) { print(probeBoxPlot(input$DMR_rows_selected))}
+      dev.off()
+    }
+)
+##################################################################
 })

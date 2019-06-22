@@ -1,4 +1,7 @@
 shinyUI(fluidPage(
+   tags$head(
+      #tags$style(type="text/css", "label{ display: table-cell; text-align: center; vertical-align: middle; } .form-group { display: table-row;}")
+    ),
    fluidRow(  
 	   column(3,
 		      selectInput("cancerCode", "癌症名称:", 
@@ -26,7 +29,25 @@ shinyUI(fluidPage(
 		),
 		column(9,tabsetPanel(
         tabPanel("DMR",dataTableOutput('DMR')),
-		  tabPanel("Sample Information", tableOutput('sampleInf'))))
+		  tabPanel("Sample Information", tableOutput('sampleInf')),
+		  tabPanel("DMR Scanner",
+		     fluidRow(
+             column(3,selectInput('chr','Choromosome:',
+						 choices=c(
+                      'chr1' = 'chr1','chr2' = 'chr2','chr3' = 'chr3','chr4' = 'chr4','chr5' = 'chr5',
+                      'chr6' = 'chr6','chr7' = 'chr7','chr8' = 'chr8','chr9' = 'chr9','chr10' = 'chr10',
+							 'chr11' = 'chr11','chr12' = 'chr12','chr13' = 'chr13','chr14' = 'chr14','chr15' = 'chr15',
+							 'chr16' = 'chr16','chr17' = 'chr17','chr18' = 'chr18','chr19' = 'chr19','chr20' = 'chr20',
+							 'chr21' = 'chr21'))),
+				 column(3,numericInput('chrStart','Start',1,min=1)),
+				 column(3,numericInput('chrEnd','End',1,min=1)),
+				 column(3,actionButton('scanButton','Goooo'))
+		     )##DMRSCanner fluidRow
+		  )
+		  
+		  
+		  )
+		  )
 	),
 	fluidRow(
 	   column(4,plotOutput('leftPlot')),

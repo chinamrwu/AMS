@@ -10,7 +10,7 @@ library(RColorBrewer)
 
 # Define server logic for slider examples
 loadData <- function(cancerCode){
-   print("loading dataset  ......")
+   print(sprintf("loading dataset  from  %s......",cancerCode))
    mat450 <- fread(sprintf('%s/%s_reportMat.txt',cancerCode,cancerCode),sep="\t",header=T,stringsAsFactors=F)
    mat450 <- as.data.frame(mat450)
     
@@ -31,7 +31,9 @@ loadData <- function(cancerCode){
 		 DMR[[length(DMR)+1]] <- tmp
 	}
    names(DMR) <- siteNames
-	list('DMR'=DMR,'mat'=mat450)
+
+	sampleInf <- read.csv(sprintf("%s/SampleInf.csv",cancerCode),header=T,stringsAsFactors=F,sep="\t")
+	list('DMR'=DMR,'mat'=mat450,'sampleInf'=sampleInf)
 }
 shinyServer(function(input, output,session) {
   dat <- reactiveValues();
@@ -39,22 +41,18 @@ shinyServer(function(input, output,session) {
       obj  <- loadData(input$cancerCode)
 		 dat$DMR <- obj$DMR
 		 dat$mat <- obj$mat
+		 dat$sampleInf <- obj$sampleInf
 		 updateSelectInput(session, "site", choices = names(dat$DMR))
 	})
 #################################################################
-drawheatmap <- function(data,Label,strTitle="Heatmap",cluster_row=F,cluster_col=T){ 
-  df11 <- data
-  df11[is.na(df11)] <- 0
-  df11 <- data.frame(t(df11))
-  ann_col <- data.frame(type=Label,row.names = colnames(df11)) 
-  ann_col$type <- factor(ann_col$type)
-  
-  p1 <- pheatmap(df11, color = brewer.pal(11,"RdYlBu")[11:1], fontsize_col = 8,
-           annotation_col = ann_col,
-           cluster_rows = cluster_row, cluster_cols = cluster_col,show_rownames = F, show_colnames = F, 
-           main = strTitle,silent=T)
-  return(p1)
-}
+output$sampleInf <-renderDataTable({
+		obj <- dat$sampleInf
+		rownames(obj) <- 1:dim(obj)[1]
+		obj  %>% DT::datatable(options = list(scrollY = '500px',dom = 't',pageLength = dim(obj)[1],
+		columnDefs = list(list(className = 'dt-center', targets = 0:dim(obj)[2]))
+		),selection='none') %>%
+		 formatStyle(0, target= 'row',lineHeight='60%')
+	},server=T)
 #############################################################
 areaPlot <- function(selectedRow){
         #selectedRow <- input$DMR1_rows_selected;
@@ -84,7 +82,9 @@ areaPlot <- function(selectedRow){
 				p1 <- ggplot(mat1,aes(x=X,y=Beta,fill=sampleType))+geom_area()+facet_grid(probeId ~ .)+
             ggtitle(sprintf("%s:%s",geneSymbol,paste0(selected[1,2:5],collapse="_")))+
 				scale_x_discrete(expand = c(0.01,0))+
-				theme(legend.position="none",
+				theme(legend.position="bottom",
+				      legend.title=element_blank(),
+						legend.text=element_text(size=16),
 				    panel.grid.major = element_blank(),
 	             panel.grid.minor = element_blank(),
 	             panel.border = element_blank(),
@@ -120,12 +120,25 @@ heatmapPlot <- function(selectedRow){
 				geneSymbol <- selected[1,1]
 				mat <- dat$mat[,probes];
 				Label <- dat$mat$label
-				drawheatmap(mat,Label)
+            
+				mat[is.na(mat)] <- 0;
+				mat <- data.frame(t(mat));
+
+          
+				ann_col <- data.frame('sampleType'=Label,row.names = colnames(mat)) 
+				ann_col$sampleType <- factor(ann_col$sampleType)
+				names(ann_col) <- " "
+
+				p1 <- pheatmap(mat, color = brewer.pal(11,"RdYlBu")[11:1], fontsize_col = 8,
+				annotation_col = ann_col,fontsize=15,
+				cluster_rows = F, cluster_cols = T,show_rownames = F, show_colnames = F, 
+				main = geneSymbol,silent=T)
+				return(p1)
 	 }
 }
 ###############################
 probeBoxPlot <- function(selectedRow){
-    if(!is.null(selectedRow)) {
+  if(!is.null(selectedRow)) {
 			indx <- as.integer(selectedRow[1])
 			selected <- dat$dataTable[indx,];
 			probes   <- strsplit(selected[1,12],";")[[1]]
@@ -134,7 +147,7 @@ probeBoxPlot <- function(selectedRow){
 			matX  <- c();
 			L <- dim(mat)[1];
 			for(probe in probes){
-           matX <- rbind(matX,data.frame('Beta'=mat[,probe],'label'=mat[,'label'],'probeId'=rep(probe,L),stringsAsFactors=F))
+            matX <- rbind(matX,data.frame('Beta'=mat[,probe],'label'=mat[,'label'],'probeId'=rep(probe,L),stringsAsFactors=F))
 			}
 
 			p1 <- ggplot(matX,aes(x=probeId, y=Beta, color = label,fill=label))+geom_boxplot()+
@@ -157,7 +170,6 @@ probeBoxPlot <- function(selectedRow){
 	 
 }
 probeViolin  <- function(selectedRow){
- 
 }
 #####################################################
 output$DMR <- renderDataTable({
@@ -245,4 +257,14 @@ output$downloadRight <- downloadHandler(
     }
 )
 ##################################################################
+output$DMRButton <- downloadHandler(
+    filename = function() { 
+       paste0('DMR_',Sys.Date(),'_.csv')
+	 },
+    content = function(fname) {
+	   obj <- dat$dataTable[as.integer(input$DMR_rows_all),];
+      write.csv(obj,fname)
+    }
+  )
+
 })

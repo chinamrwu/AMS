@@ -9,8 +9,8 @@ library(sqldf)
 source('F:/projects/common/islandDMR.R')
 dataDir <- 'F:/projects/allData/TCGA/'
 #########################
-diseaseCode    <- 'CRCA'
-projectId      <- paste0('TCGA','-','CRCA') # TCGA project code,like 'TCGA-BRCA for breast cance\COAD for colon adenom
+diseaseCode    <- 'UCEC'
+projectId      <- paste0('TCGA','-',diseaseCode) # TCGA project code,like 'TCGA-BRCA for breast cance\COAD for colon adenom
 if('CRCA'==diseaseCode){ projectId <- c('TCGA-COAD','TCGA-READ');}
 inputMat450    <- sprintf(paste0(dataDir,'%s_450k.txt'),diseaseCode)     # The matrix file from TCGA 450k
 inputProbeInf  <- paste0(dataDir,'probeInf.txt') # probe information file
@@ -74,7 +74,7 @@ T2 <- data.frame(T2,stringsAsFactors=F)
 T2$SampleNumber <- as.numeric(T2$SampleNumber)
 Report.tables.siteSample <- T2  #####
 rm(list=c('tmp1','tmp2','tmp3','T1','T2','siteSample','site'))
-write.csv(Report.tables.siteSample,file=paste0(outputDir,'/SampleInf.csv'),quote=F,row.names=F)
+write.csv(Report.tables.siteSample,file=paste0(outputDir,'/SampleInf.csv'),quote=F,row.names=F,sep="\t")
 ##################################################################################################
 patientInf <- data.frame('sampleId'=rownames(mat450),'label'=lbls,stringsAsFactors=F,
 'patientId'=as.character(sapply(rownames(mat450),function(v){a <- strsplit(v,"-")[[1]][1:3];paste0(a,collapse="-")})))

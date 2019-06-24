@@ -1,9 +1,15 @@
 Determination of differential methylation regions (DMR) on cancer genome
 
-First, all the CpG islands  are selected from  each of  the chromosomes except X and Y,
-for each island, the sliding window algorithm is used to compute the averaged methylation level of normal samples and cancer samplse respectively,
-and the ROC of potential DMR.
-On the first sliding step, the window covers the first and the second probes and the ROC of the two probes
-is computed ,then the window slides to the next step, where the second  and the third probes are covered,and
-the second ROC is computed. With the window sliding to the end of the island, the window slides to the last step with window widht 2.
-After reaching the end of island, we increase the width of the window to cover 3 continuous probes and the steps repeat as the previous
+First,  from  each of  the chromosomes except X and Y, we selected all the CpG islands, to each of which the sliding window algorithm is 
+applied .On the first sliding step, the window covers the first and the second probes,we computed the averaged beta value over the two 
+probes for each sample,and from these average beta values, we derived the ROC curve and AUC value,then the window slides to the next step, 
+where the second  and the third probes are covered by the sliding window,and the second ROC is computed.
+After the window covering the last probe of island, we increased the width of the window to cover 3 continuous probes 
+and repeated the previous operation. During the window sliding, we recorded the maximum AUC and corresponding probes as potential DMR.
+
+
+首先，我们找出除X、Y染色体之外的所有染色体上的CpG岛，对于每一个CpG岛，我们应用滑动窗口算法。在滑动的第一步，窗口宽度为2，窗口覆盖该岛的第一和第二个
+探针，我们计算每一样本在这两个探针上的beta平均值，作为该样本在这个窗口上的甲基化水平。根据这些beta平均值，我们导出该窗口下的ROC曲线
+并计算其AUC值。然后该窗口滑向下一步，覆盖第二和第三个探针。如此直到滑倒覆盖该CpG岛的最后一个探针。至此，窗口宽度为2的情况计算完毕。
+增加窗口宽度为3，重复以上过程，直到窗口宽度为该CpG岛包含的所有探针数目。在滑动过程中，我们记录下AUC最大值及其对应窗口下的探针，作为
+该岛的DMR。

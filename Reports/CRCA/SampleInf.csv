@@ -1,27 +1,27 @@
-site,SampleType,SampleNumber
-Cecum,cancer,71
-Cecum,normal,7
-Sigmoid colon,cancer,67
-Sigmoid colon,normal,7
-Ascending colon,cancer,60
-Ascending colon,normal,6
-Colon, NOS,cancer,49
-Colon, NOS,normal,12
-Rectum, NOS,cancer,49
-Rectum, NOS,normal,6
-Rectosigmoid junction,cancer,46
-Rectosigmoid junction,normal,2
-Descending colon,cancer,14
-Descending colon,normal,2
-Hepatic flexure of colon,cancer,13
-Hepatic flexure of colon,normal,3
-Transverse colon,cancer,14
-Transverse colon,normal,0
-Splenic flexure of colon,cancer,5
-Splenic flexure of colon,normal,0
---,cancer,3
---,normal,0
-Connective, subcutaneous and other soft tissues of abdomen,cancer,2
-Connective, subcutaneous and other soft tissues of abdomen,normal,0
-TOTAL,cancer,393
-TOTAL,normal,45
+site	SampleType	SampleNumber
+Cecum	cancer	71
+Cecum	normal	7
+Sigmoid colon	cancer	67
+Sigmoid colon	normal	7
+Ascending colon	cancer	60
+Ascending colon	normal	6
+Colon, NOS	cancer	49
+Colon, NOS	normal	12
+Rectum, NOS	cancer	49
+Rectum, NOS	normal	6
+Rectosigmoid junction	cancer	46
+Rectosigmoid junction	normal	2
+Descending colon	cancer	14
+Descending colon	normal	2
+Hepatic flexure of colon	cancer	13
+Hepatic flexure of colon	normal	3
+Transverse colon	cancer	14
+Transverse colon	normal	0
+Splenic flexure of colon	cancer	5
+Splenic flexure of colon	normal	0
+--	cancer	3
+--	normal	0
+Connective, subcutaneous and other soft tissues of abdomen	cancer	2
+Connective, subcutaneous and other soft tissues of abdomen	normal	0
+TOTAL	cancer	393
+TOTAL	normal	45
